@@ -12,7 +12,8 @@ private _handle = _this spawn {
 
 	private _chance = (missionNamespace getVariable ["adv_aceSplint_reopenChance",0]) min 100;
 	private _reuse = (missionNamespace getVariable ["adv_aceSplint_reuseChance",80]) min 100;
-	private _time = missionNamespace getVariable ["adv_aceSplint_reopenTime",600];
+	private _reopenTime = missionNamespace getVariable ["adv_aceSplint_reopenTime",600];
+	private _time = (_reopenTime + ( round(random 60)-30 )) max 30;
 
 	_target setVariable ["adv_aceSplint_reopenUndo",false];
 	

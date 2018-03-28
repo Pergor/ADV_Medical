@@ -74,10 +74,10 @@
             <German>Wahrscheinlichkeit für das Abfallen einer Schiene</German>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_TIME">
-			<Original>Time before a splint can fall off</Original>
-            <English>Time before a splint can fall off</English>
-			<French>Durée avant une attelle peut se délier</French>
-            <German>Dauer bevor eine Schiene abfallen kann</German>
+			<Original>Time before a splint can fall off (+/-30 seconds)</Original>
+            <English>Time before a splint can fall off (+/-30 seconds)</English>
+			<French>Durée avant une attelle peut se délier (+/-30 secondes)</French>
+            <German>Dauer bevor eine Schiene abfallen kann (+/-30 Sekunden)</German>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_REUSE">
 			<Original>Probability for reusability of splints</Original>
