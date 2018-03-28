@@ -52,6 +52,13 @@ private _handle = _this spawn {
 			[localize "STR_ADV_ACESPLINT_REOPEN_HINT_LOST", "\adv_aceSplint\ui\splint.paa", nil, _target, 2.7] call ace_common_fnc_displayTextPicture;
 		} else {
 			[localize "STR_ADV_ACESPLINT_REOPEN_HINT", "\adv_aceSplint\ui\splint.paa", nil, _target, 2.7] call ace_common_fnc_displayTextPicture;
+			/*
+			if (vehicle _target isEqualTo _target) exitWith {
+				private _usedSplint = createVehicle ["WeaponHolderSimulated", _target modelToWorldVisual (_target selectionPosition _selection), [], 0, "CAN_COLLIDE"];
+				_usedSplint addItemCargoGlobal ["adv_aceSplint_splint", 1];
+				_usedSplint setVelocity [sin(getdir _target+0)*1,cos(getdir _target+0)*1.5,0];
+			};
+			*/
 			_target addItem "adv_aceSplint_splint";
 		};
 		
