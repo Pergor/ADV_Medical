@@ -14,6 +14,9 @@ if ( _inRevive ) then {
 	["adv_aceCPR_evh_addTime", [_caller, _target]] call CBA_fnc_localEvent;
 };
 
+//minor pain adjustment with each CPR:
+[_target, 0.04] call ace_medical_fnc_adjustPainLevel;
+
 //exit if cpr no longer possible:
 if !( [_target] call adv_aceCPR_fnc_isResurrectable ) exitWith {
 	//diagnostics:
