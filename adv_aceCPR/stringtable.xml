@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="adv">
+    <Package name="aceCPR">
+        <Key ID="STR_ADV_ACECPR_CPR_EXECUTE">
+			<Original>%1 performed CPR</Original>
+			<English>%1 performed CPR</English>
+			<German>%1 hat eine HLW durchgeführt</German>
+			<French>%1 à effectué une RCP</French>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_CPR_COMPLETED">
+			<Original>%1 performed CPR and stabilized the patient</Original>
+            <English>%1 performed CPR and stabilized the patient</English>
+			<French>%1 à effectué une RCP et a stabilisé le patient</French>
+            <German>%1 hat HLW durchgeführt und den Patienten stabilisiert</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_CPR_FATAL">
+			<Original>%1 performed CPR - but the patient will not wake up</Original>
+            <English>%1 performed CPR - but the patient will not wake up</English>
+			<French>%1 à effectué une RCP - mais le patient ne se réveillera pas</French>
+            <German>%1 hat HLW durchgeführt - der Patient ist nicht mehr zu retten</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_EXECUTE">
+			<Original>%1 used the Defibrillator</Original>
+			<English>%1 used the Defibrillator</English>
+			<French>%1 utilise le défibrillateur</French>
+			<German>%1 hat den Defibrillator genutzt</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_ACTION">
+			<Original>Use Defibrillator</Original>
+			<English>Use Defibrillator</English>
+			<French>Utiliser le défibrillateur</French>
+			<German>%1 hat den Defibrillator genutzt</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_DESCRIPTION">
+			<Original>Use to resuscitate player</Original>
+			<English>Use to resuscitate player</English>
+			<French>Utiliser pour la réanimation</French>
+			<German>Stellt Puls wieder her</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_PROGRESS">
+			<Original>Using the defibrillator...</Original>
+			<English>Using the defibrillator...</English>
+			<French>Utiliser le défibrillateur...</French>
+			<German>Setze Defibrillator ein...</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_COMPLETED">
+			<Original>%1 used the Defibrillator and stabilized the patient</Original>
+            <English>%1 used the Defibrillator and stabilized the patient</English>
+			<French>%1 a utilisé le défibrillateur et a stabilisé le patient</French>
+            <German>%1 hat den Patienten mit Defibrillator stabilisiert</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_ADDTIME">
+			<Original>Seconds added to revive timer (+/-3 seconds)</Original>
+            <English>Seconds added to revive timer (+/-3 seconds)</English>
+            <German>Hinzugefügte Revive-Zeit (+/-3 Sekunden)</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_MAXTIME">
+			<Original>Maximum time for successful CPR</Original>
+            <English>Maximum time for successful CPR</English>
+			<French>CPR-probabilité avec medicClass == 2</French>
+            <German>Maximale Zeit für erfolgreiche CPR</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_2">
+			<Original>CPR-chance for ACE doctors</Original>
+            <English>CPR-chance for ACE doctors</English>
+			<French>CPR-probabilité pour ACE médecins</French>
+            <German>CPR-Wahrscheinlichkeit für ACE-Doctors</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_1">
+			<Original>CPR-chance for ACE medics</Original>
+            <English>CPR-chance for ACE medics</English>
+			<French>CPR-probabilité pour ACE infirmiers</French>
+            <German>CPR-Wahrscheinlichkeit für ACE-Medics</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_0">
+			<Original>CPR-chance for non-medics</Original>
+            <English>CPR-chance for non-medics</English>
+			<French>CPR-probabilité pour non formés soldats</French>
+            <German>CPR-Wahrscheinlichkeit für Nicht-Medics</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_AED">
+			<Original>Probability of success for AED usage</Original>
+            <English>Probability of success for AED usage</English>
+			<French>Probabilité du succès de l'usage d'une AED</French>
+            <German>Erfolgswahrscheinlichkeit für Defibrillatoren</German>
+        </Key>
+		</Package>
+</Project>

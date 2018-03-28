@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="adv">
+    <Package name="aceSplint">
+        <Key ID="STR_ADV_ACESPLINT_DISPLAYNAME">
+			<Original>SAM splint</Original>
+            <English>SAM splint</English>
+			<French>Attelle</French>
+            <German>Alu-Polsterschiene</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_DISPLAYNAME_USED">
+			<Original>SAM splint (used)</Original>
+            <English>SAM splint (used)</English>
+			<French>Attelle (déjà utilisée)</French>
+            <German>Alu-Polsterschiene (benutzt)</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_DESCRIPTION">
+			<Original>Use to splint damaged limb</Original>
+            <English>Use to splint damaged limb</English>
+			<French>Utiliser pour immobiliser un membre fracturé</French>
+            <German>Zum Schienen verletzter Gliedmaßen</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_APPLIED">
+			<Original>%1 applied splint to %3</Original>
+			<English>%1 applied splint to %3</English>
+			<French>%1 pose une attelle à %3</French>
+			<German>%1 hat %3 geschient</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_ACTION">
+			<Original>Apply SAM splint</Original>
+            <English>Apply SAM splint</English>
+			<French>Poser une attelle</French>
+            <German>Alu-Polsterschiene</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_PROGRESS">
+			<Original>Applying splint...</Original>
+            <English>Applying splint...</English>
+			<French>Pose de l'attelle...</French>
+            <German>Gliedmaß wird geschient...</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_ARM">
+			<Original>arm</Original>
+            <English>arm</English>
+			<French>bras</French>
+            <German>Arm</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_LEG">
+			<Original>leg</Original>
+            <English>leg</English>
+			<French>jambe</French>
+            <German>Bein</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_REOPEN">
+			<Original>Splint has come undone</Original>
+            <English>Splint has come undone</English>
+			<French>Une attelle se délier</French>
+            <German>Polsterschiene hat sich gelöst</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT">
+			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
+            <English>One of your SAM splints has come undone! You can reuse the splint.</English>
+			<French>T'attelle se délier! Tu peus réemployer l'attelle.</French>
+            <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann erneut verwendet werden.</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT_LOST">
+			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
+            <English>One of your SAM splints has come undone! The splint is lost.</English>
+			<French>T'attelle se délier! Tu perds l'attelle.</French>
+            <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann nicht erneut verwendet werden.</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE">
+			<Original>Probability for splints to fall off</Original>
+            <English>Probability for splints to fall off</English>
+			<French>Probabilité du desserrage</French>
+            <German>Wahrscheinlichkeit für das Abfallen einer Schiene</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_SETTING_TIME">
+			<Original>Time before a splint can fall off</Original>
+            <English>Time before a splint can fall off</English>
+			<French>Durée avant une attelle peut se délier</French>
+            <German>Dauer bevor eine Schiene abfallen kann</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_SETTING_REUSE">
+			<Original>Probability for reusability of splints</Original>
+            <English>Probability for reusability of splints</English>
+			<French>Probabilité pour la réutilisabilité de l'attelles</French>
+            <German>Wahrscheinlichkeit für die Wiederverwendbarkeit einer Schiene</German>
+        </Key>
+		</Package>
+</Project>
