@@ -1,0 +1,13 @@
+name = "ADV-aceSplint";
+picture = "logo.paa";
+actionName = "Website";
+action = "http://spezialeinheit-luchs.de";
+logo = "logo.paa";
+logoOver = "logo.paa";
+tooltip = "ADV-aceSplint";
+tooltipOwned = "ADV-aceSplint";
+overview = "Fixing damaged limbs with ACE.";
+author = "SeL-Belbo";
+overviewPicture = "logo.paa";
+overviewText = "ADV-aceSplint";
+overviewFootnote = "";
