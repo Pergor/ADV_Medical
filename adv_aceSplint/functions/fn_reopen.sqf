@@ -14,10 +14,26 @@ private _handle = _this spawn {
 	private _reuse = (missionNamespace getVariable ["adv_aceSplint_reuseChance",80]) min 100;
 	private _time = missionNamespace getVariable ["adv_aceSplint_reopenTime",600];
 
+	_target setVariable ["adv_aceSplint_reopenUndo",false];
+	
 	if (ceil random 100 <= _chance) exitWith {
 		[_target,format ["Splint for %1 will reopen in %2 seconds.",_bodyPart,_time]] call adv_aceSplint_fnc_diag;
 		
+		//make sure we exit, if PAK is used:
+		private _pakHandle = ["ace_treatmentSucceded",{
+			params ["_caller", "_target", "_selectionName", "_className"];
+			if (toUpper _className isEqualTo "PERSONALAIDKIT" && local _target) exitWith {
+				_target setVariable ["adv_aceSplint_reopenUndo",true];
+			};
+		}] call CBA_fnc_addEventHandler;
+		
 		sleep _time;
+		
+		["ace_treatmentSucceded", _pakHandle] call CBA_fnc_removeEventHandler;
+		if (_target getVariable "adv_aceSplint_reopenUndo") exitWith {
+			[_target,"Splint was supposed to fall off, but PAK prevented that."] call adv_aceSplint_fnc_diag;		
+			nil
+		};
 		
 		private _bps = _target getVariable ["ace_medical_bodypartstatus",[0,0,0,0,0,0]];
 		_bps set [_selectionNumber,_oldBPS];
