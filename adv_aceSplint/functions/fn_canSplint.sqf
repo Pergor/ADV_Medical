@@ -5,8 +5,9 @@ ADV-aceSplint - by Belbo
 params ["_target","_selection"];
 
 private _hhpaab = missionNamespace getVariable ["ace_medical_healHitPointAfterAdvBandage",false];
+private _enable = missionNamespace getVariable ["adv_aceSplint_enable",true];
 
-if ( _hhpaab ) exitWith { false };
+if ( _hhpaab || !_enable ) exitWith { false };
 
 private _hitPoint = call {
 	if ( (toLower _selection) in ["hand_l","hand_r"] ) exitWith {"HitHands"};

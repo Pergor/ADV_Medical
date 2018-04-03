@@ -49,6 +49,12 @@
 			<French>%1 a utilisé le défibrillateur et a stabilisé le patient</French>
             <German>%1 hat den Patienten mit Defibrillator stabilisiert</German>
         </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_ENABLE">
+			<Original>Enable ADV - ACE CPR</Original>
+            <English>ENABLE ADV - ACE CPR</English>
+			<French>Activer ADV - ACE CPR</French>
+            <German>ADV - ACE CPR aktivieren</German>
+        </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_ADDTIME">
 			<Original>Seconds added to revive timer (+/-3 seconds)</Original>
             <English>Seconds added to revive timer (+/-3 seconds)</English>

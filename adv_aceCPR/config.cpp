@@ -13,8 +13,8 @@
 			"ace_medical"
 			,"cba_settings"
 		};
-		version = "1.5.0";
-		versionStr = "1.5.0";
+		version = "1.5.1";
+		versionStr = "1.5.1";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
@@ -92,7 +92,7 @@ class cfgVehicles {
 				class CPR;
 				class adv_aceCPR_AED: CPR {
 					displayName = "$STR_ADV_ACECPR_AED_ACTION";
-					condition = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_canTreatCached";
+					condition = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
 					statement = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_treatment";
 					exceptions[] = {""};
 					icon = "\adv_aceCPR\ui\defib_action.paa";
@@ -104,7 +104,7 @@ class cfgVehicles {
 						class CPR;
 						class adv_aceCPR_AED: CPR {
 							displayName = "$STR_ADV_ACECPR_AED_ACTION";
-							condition = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_canTreatCached";
+							condition = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
 							statement = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_treatment";
 							exceptions[] = {"isNotInside"};
 							icon = "\adv_aceCPR\ui\defib_action.paa";
@@ -129,6 +129,7 @@ class ACE_Medical_Actions {
             displayName = "Automated External Defibrillator";
 			displayNameProgress = "$STR_ADV_ACECPR_AED_PROGRESS";
 			items[] = {"adv_aceCPR_AED"};
+			condition = "!([(_this select 1)] call ace_common_fnc_isAwake) && missionNamespace getVariable ['ace_medical_enableRevive',0]>0 && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
 			treatmentTime = 8;
 			requiredMedic = 1;
 			callbackSuccess = "adv_aceCPR_fnc_AED_action";

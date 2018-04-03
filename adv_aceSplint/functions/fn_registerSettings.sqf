@@ -6,6 +6,16 @@ ADV-aceSplint - by Belbo
 
 //Reopen Chance
 [
+	"adv_aceSplint_enable"
+	,"CHECKBOX"
+	,localize "STR_ADV_ACESPLINT_SETTING_ENABLE"
+	,CBA_SETTINGS_CAT
+	,[true]
+	,true
+] call CBA_Settings_fnc_init;
+
+//Reopen Chance
+[
 	"adv_aceSplint_reopenChance"
 	,"SLIDER"
 	,localize "STR_ADV_ACESPLINT_SETTING_CHANCE"

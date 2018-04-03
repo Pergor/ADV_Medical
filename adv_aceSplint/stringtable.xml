@@ -67,6 +67,12 @@
 			<French>T'attelle se délier! Tu perds l'attelle.</French>
             <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann nicht erneut verwendet werden.</German>
         </Key>
+        <Key ID="STR_ADV_ACESPLINT_SETTING_ENABLE">
+			<Original>Enable ADV - ACE Splint</Original>
+            <English>Enable ADV - ACE Splint</English>
+			<French>Activer ADV - ACE Splint</French>
+            <German>ADV - ACE Splint aktivieren</German>
+        </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE">
 			<Original>Probability for splints to fall off</Original>
             <English>Probability for splints to fall off</English>

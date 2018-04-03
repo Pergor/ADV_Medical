@@ -10,8 +10,11 @@ params [
 	,"_items"
 ];
 
+private _revive = missionNamespace getVariable ["ace_medical_enableRevive",0];
+private _enable = missionNamespace getVariable ["adv_aceCPR_enable",true];
+
 //if revive is enabled execute the custom cpr action:
-if ( (missionNamespace getVariable ["ace_medical_enableRevive",0]) > 0 ) exitWith {
+if ( _revive > 0 && _enable ) exitWith {
 	//diagnostics:
 	[_target,"custom CPR is being executed"] call adv_aceCPR_fnc_diag;
 

@@ -6,6 +6,16 @@ ADV-aceCPR - by Belbo
 
 missionNamespace setVariable ["adv_aceCPR_probabilities",[40,15,5,85]];
 
+//Enable ADV - ACE CPR
+[
+	"adv_aceCPR_enable"
+	,"CHECKBOX"
+	,localize "STR_ADV_ACECPR_SETTING_ENABLE"
+	,CBA_SETTINGS_CAT
+	,[true]
+	,true
+] call CBA_Settings_fnc_init;
+
 //Added time with CPR
 [
 	"adv_aceCPR_addTime"
