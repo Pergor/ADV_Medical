@@ -1,13 +1,13 @@
-name = "ADV-aceCPR";
+name = "ADV - ACE CPR";
 picture = "logo.paa";
 actionName = "Website";
 action = "http://spezialeinheit-luchs.de";
 logo = "logo.paa";
 logoOver = "logo.paa";
-tooltip = "ADV-aceCPR";
-tooltipOwned = "ADV-aceCPR";
+tooltip = "ADV - ACE CPR";
+tooltipOwned = "ADV - ACE CPR";
 overview = "This makes the ACE-CPR finally useful.";
 author = "SeL-Belbo";
 overviewPicture = "logo.paa";
-overviewText = "ADV-aceCPR";
+overviewText = "ADV - ACE CPR";
 overviewFootnote = "";
