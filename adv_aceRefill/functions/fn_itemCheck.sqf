@@ -10,7 +10,7 @@ private _ML = missionnamespace getVariable ["ace_medical_level",2];
 private _SK = missionnamespace getVariable ["ace_medical_consumeItem_SurgicalKit",0];
 private _hHPAAB = missionnamespace getVariable ["ace_medical_healHitPointAfterAdvBandage",true];
 private _splint = isClass(configFile >> "CfgWeapons" >> "adv_aceSplint_splint");
-private _refills = [];
+private _refills = [["",0]];
 
 private _add = {
 	params ["_unit","_type","_amount"];
@@ -24,7 +24,7 @@ if ( ({_x == "adv_aceRefill_MediKit"} count items _unit) > 0 ) then {
 	_unit removeItems "adv_aceRefill_MediKit":
 };
 
-if (_ML >= 2) then {
+if (_ML > 1) then {
 	_refills = [
 		["ACE_fieldDressing",32]
 		,["ACE_elasticBandage",32]
