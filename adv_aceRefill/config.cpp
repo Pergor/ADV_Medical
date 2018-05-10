@@ -3,10 +3,12 @@ class CfgPatches
     class adv_aceRefill
     {
         units[] = {
-			"adv_aceRefill_MediKitItem"
+			"adv_aceRefill_autoKitItem"
+			,"adv_aceRefill_manualKitItem"
 		};
         weapons[] = {
-			"adv_aceRefill_MediKit"
+			"adv_aceRefill_autoKit"
+			,"adv_aceRefill_manualKit"
 		};
         requiredVersion = 1.82;
         requiredAddons[] = {
@@ -31,8 +33,9 @@ class cfgFunctions {
 		class init
 		{
 			file = "adv_aceRefill\functions";
-			class itemCheck {};
 			class init { postInit = 1; };
+			class itemCheck {};
+			class refill {};
 		};
 	};
 };
@@ -40,26 +43,33 @@ class cfgFunctions {
 class cfgWeapons {
 	class ACE_ItemCore;
 	class CBA_MiscItem_ItemInfo;
+
 	
-    class adv_aceRefill_MediKit: ACE_ItemCore {
+    class adv_aceRefill_autoKit: ACE_ItemCore {
         scope = 2;
 		scopeCurator = 2;
-        displayName = "Medical Refill Kit";
+        displayName = "$STR_ADV_REFILL_NAME";
         picture = "\A3\Weapons_F\Items\data\UI\gear_Medikit_CA.paa";
 		editorPreview = "\A3\EditorPreviews_F_Orange\Data\CfgVehicles\Land_FirstAidKit_01_closed_F.jpg";
 		model = "\A3\Weapons_F\Items\Medikit";
-        descriptionShort = "Will refill your medical items.";
-        descriptionUse = "Refill medical items";
+        descriptionShort = "$STR_ADV_REFILL_DESCRIPTION";
+        descriptionUse = "$STR_ADV_REFILL_DESCRIPTIONUSE";
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 30;
         };
+	};
+	
+    class adv_aceRefill_manualKit: adv_aceRefill_autoKit {
+        class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 120;
+        };		
 	};
 };
 
 class cfgVehicles {
 	class Item_Base_F;
 	
-	class adv_aceRefill_MediKitItem: Item_Base_F {
+	class adv_aceRefill_autoKitItem: Item_Base_F {
         scope = 2;
         scopeCurator = 2;
         displayName = "Medical Refill Kit";
@@ -67,7 +77,12 @@ class cfgVehicles {
         vehicleClass = "Items";
 		model = "\A3\Weapons_F\Items\Medikit";
         class TransportItems {
-            MACRO_ADDITEM(adv_aceRefill_MediKit,1);
+            MACRO_ADDITEM(adv_aceRefill_autoKit,1);
+        };
+	};
+	class adv_aceRefill_manualKitItem: adv_aceRefill_autoKitItem {
+        class TransportItems {
+            MACRO_ADDITEM(adv_aceRefill_manualKit,1);
         };
 	};
 };

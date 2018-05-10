@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="adv">
+    <Package name="aceRefill">
+        <Key ID="STR_ADV_REFILL_OPEN">
+			<Original>Open Medical Refill Kit</Original>
+            <English>Open Medical Refill Kit</English>
+            <German>Öffne Sanitätsnachfüllpack</German>
+        </Key>
+        <Key ID="STR_ADV_REFILL_NAME">
+			<Original>Medical Refill Kit</Original>
+            <English>Medical Refill Kit</English>
+            <German>Sanitätsnachfüllpack</German>
+        </Key>
+        <Key ID="STR_ADV_REFILL_DESCRIPTION">
+			<Original>Will refill your medical items automatically.</Original>
+            <English>Will refill your medical items automatically.</English>
+            <German>Füllt Sanitätsmaterial wieder auf.</German>
+        </Key>
+        <Key ID="STR_ADV_REFILL_DESCRIPTIONUSE">
+			<Original>Refill medical items</Original>
+            <English>Refill medical items</English>
+            <German>Fülle Sanitätsmaterial auf</German>
+        </Key>
+		</Package>
+</Project>

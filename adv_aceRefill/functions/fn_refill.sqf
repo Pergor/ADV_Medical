@@ -4,9 +4,6 @@ ADV-aceRefill - by Belbo
 
 params ["_unit"];
 
-if !( _unit getVariable ["ACE_medical_medicClass", 0] > 0 ) exitWith {nil};
-if !( ({_x == "adv_aceRefill_autoKit"} count items _unit) > 0 ) exitWith {nil};
-
 private _ML = missionnamespace getVariable ["ace_medical_level",2];
 private _SK = missionnamespace getVariable ["ace_medical_consumeItem_SurgicalKit",0];
 private _hHPAAB = missionnamespace getVariable ["ace_medical_healHitPointAfterAdvBandage",true];
@@ -21,7 +18,7 @@ private _add = {
 	for "_i" from 1 to _amount do { _unit addItem _type };
 };
 
-_unit removeItems "adv_aceRefill_autoKit";
+_unit removeItem "adv_aceRefill_manualKit";
 
 if (_ML > 1) then {
 	_refills = [
