@@ -11,7 +11,7 @@ class CfgPatches
         requiredVersion = 1.82;
         requiredAddons[] = {
 			"ace_common"
-			"ace_medical"
+			,"ace_medical"
 		};
 		version = "1.0.0";
 		versionStr = "1.0.0";
