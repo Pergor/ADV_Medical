@@ -4,14 +4,17 @@ ADV-aceRefill - by Belbo
 
 params ["_unit","_param"];
 
-if ( _param isEqualTo "ADV_ACEREFILL_AUTOKIT" && ( _unit getVariable ["ACE_medical_medicClass", 0] isEqualTo 0 || ({_x == "adv_aceRefill_autoKit"} count items _unit) isEqualTo 0 ) ) exitWith {nil};
+if ( _param > 2 && ( _unit getVariable ["ACE_medical_medicClass", 0] isEqualTo 0 || ({_x == "adv_aceRefill_autoKit"} count items _unit) isEqualTo 0 ) ) exitWith {nil};
 
+private _mAFAK = round (missionNamespace getVariable ["adv_aceRefill_FAK_minAmount",3]);
+private _mAMK = round (missionNamespace getVariable ["adv_aceRefill_manualKit_minAmount",10]);
+private _refillItem = if (_param > 1) then {"ADV_ACEREFILL_MANUALKIT"} else {"ADV_ACEREFILL_FAK"};
 private _refills = [_unit, _param] call adv_aceRefill_fnc_getRefill;
 private _litter = objNull;
 
 private _add = {
 	params ["_unit","_type","_amount"];
-	if !( (backpack _unit isEqualTo "") || (_param isEqualTo "ADV_ACEREFILL_FAK") ) exitWith {
+	if  ( _param > 1 && !(backpack _unit isEqualTo "") ) exitWith {
 		private _mediBack = unitBackpack _unit;
 		_mediBack addItemCargoGlobal [_type, _amount];
 	};
@@ -32,17 +35,16 @@ private _drop = {
 	_litter
 };
 
-if ( _param isEqualTo "ADV_ACEREFILL_AUTOKIT" ) then {
-	_unit removeItems "adv_aceRefill_autoKit";
-	_litter = [_unit,"adv_aceRefill_Kit_empty"] call _drop;
+if ( _param < 3 ) then {
+	_unit removeItem _refillItem;
+} else {
+	_unit removeItems "ADV_ACEREFILL_AUTOKIT"
 };
-if ( _param isEqualTo "ADV_ACEREFILL_MANUALKIT" ) then {
-	_unit removeItem "adv_aceRefill_manualKit";
-	_litter = [_unit,"adv_aceRefill_Kit_empty"] call _drop;
-};
-if ( _param isEqualTo "ADV_ACEREFILL_FAK" ) then {
-	_unit removeItem "adv_aceRefill_FAK";
+
+if ( _param < 2 ) then {
 	_litter = createVehicle ["MedicalGarbage_01_FirstAidKit_F", getPos _unit, [], 0, "CAN_COLLIDE"];
+} else {
+	_litter = [_unit,"adv_aceRefill_Kit_empty"] call _drop;
 };
 
 private _success = 0;
@@ -51,28 +53,20 @@ private _success = 0;
 	if !(_type isEqualTo "") then {
 		private _count = {_x == _type} count items _unit;
 		private _amount = _max-_count;
-		[_unit,_type,_amount,_param] call _add;
+		[_unit,_type,_amount] call _add;
 		_success = _success+_amount;
 	};
 	nil
 } count _refills;
 
-if (_success isEqualTo 0) exitWith {
-	private _exchangeItem = if (_param isEqualTo "ADV_ACEREFILL_AUTOKIT") then {"adv_aceRefill_manualKit"} else {_param};
-	_unit addItem _exchangeItem;
-	systemChat (localize "STR_ADV_REFILL_REFILLED_NOT");
-	deleteVehicle _litter;
-	nil
-};
-if ( _success < 4 && _param isEqualTo "ADV_ACEREFILL_FAK" ) exitWith {
-	_unit addItem "ADV_ACEREFILL_FAK";
-	systemChat (localize "STR_ADV_REFILL_REFILLED_NEW");
-	deleteVehicle _litter;
-	nil
-};
-if ( _success < 11 && !(_param isEqualTo "ADV_ACEREFILL_FAK") ) exitWith {
-	_unit addItem "ADV_ACEREFILL_MANUALKIT";
-	systemChat (localize "STR_ADV_REFILL_REFILLED_NEW");
+if ( { _success < (_mAFAK+1) && _param isEqualTo 1 } || { _success < (_mAMK+1) && _param > 1 } ) exitWith {
+	_unit addItem _refillItem;
+	private _str = if (_success > 0) then {
+		(localize "STR_ADV_REFILL_REFILLED_NEW");
+	} else {
+		(localize "STR_ADV_REFILL_REFILLED_NOT");
+	};
+	systemChat _str;
 	deleteVehicle _litter;
 	nil
 };
