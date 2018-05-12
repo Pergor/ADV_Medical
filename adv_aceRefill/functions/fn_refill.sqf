@@ -13,7 +13,8 @@ private _refills = [["NOTHING",0]];
 private _add = {
 	params ["_unit","_type","_amount"];
 	if !(backpack _unit isEqualTo "") exitWith {
-		for "_i" from 1 to _amount do { _unit addItemToBackpack _type };
+		private _mediBack = unitBackpack _unit;
+		_mediBack addItemCargoGlobal [_type, _amount];
 	};
 	for "_i" from 1 to _amount do { _unit addItem _type };
 };
