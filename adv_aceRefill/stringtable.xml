@@ -56,5 +56,15 @@
             <English>Medical items have been refilled.</English>
             <German>Sanitätsmaterial wurde aufgefüllt.</German>
         </Key>
+        <Key ID="STR_ADV_REFILL_REFILLED_NEW">
+			<Original>Medical items have been refilled. Refill item has not been consumed.</Original>
+            <English>Medical items have been refilled. Refill item has not been consumed.</English>
+            <German>Sanitätsmaterial wurde aufgefüllt. Das Nachfüllpack wurde nicht verbraucht.</German>
+        </Key>
+        <Key ID="STR_ADV_REFILL_REFILLED_NOT">
+			<Original>Medical items have not been refilled. Refill item has not been consumed.</Original>
+            <English>Medical items have not been refilled. Refill item has not been consumed.</English>
+            <German>Sanitätsmaterial wurde nicht aufgefüllt. Das Nachfüllpack wurde nicht verbraucht.</German>
+        </Key>
 		</Package>
 </Project>
