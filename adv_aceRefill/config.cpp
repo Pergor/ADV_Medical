@@ -17,6 +17,7 @@ class CfgPatches
 			"ace_common"
 			,"ace_medical"
 			,"cba_common"
+			,"cba_xeh"
 		};
 		version = "1.0.2";
 		versionStr = "1.0.2";
@@ -40,6 +41,12 @@ class cfgFunctions {
 			class getRefill {};
 			class refill {};
 		};
+	};
+};
+
+class Extended_PreInit_EventHandlers {
+	class anomaly_settings {
+		init = "call adv_aceRefill_fnc_registerSettings";
 	};
 };
 
