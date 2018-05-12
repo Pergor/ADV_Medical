@@ -2,13 +2,12 @@
 ADV-aceRefill - by Belbo
 */
 
-params ["_unit","_param"];
+params [["_unit",player],["_param",2],["_item","adv_aceRefill_manualKit"]];
 
 if ( _param > 2 && ( _unit getVariable ["ACE_medical_medicClass", 0] isEqualTo 0 || ({_x == "adv_aceRefill_autoKit"} count items _unit) isEqualTo 0 ) ) exitWith {nil};
 
 private _mAFAK = round (missionNamespace getVariable ["adv_aceRefill_FAK_minAmount",3]);
 private _mAMK = round (missionNamespace getVariable ["adv_aceRefill_manualKit_minAmount",10]);
-private _refillItem = if (_param > 1) then {"ADV_ACEREFILL_MANUALKIT"} else {"ADV_ACEREFILL_FAK"};
 private _refills = [_unit, _param] call adv_aceRefill_fnc_getRefill;
 private _litter = objNull;
 
@@ -36,9 +35,9 @@ private _drop = {
 };
 
 if ( _param < 3 ) then {
-	_unit removeItem _refillItem;
+	_unit removeItem _item;
 } else {
-	_unit removeItems "ADV_ACEREFILL_AUTOKIT"
+	_unit removeItems "ADV_ACEREFILL_AUTOKIT";
 };
 
 if ( _param < 2 ) then {
@@ -60,7 +59,7 @@ private _success = 0;
 } count _refills;
 
 if ( { _success < (_mAFAK+1) && _param isEqualTo 1 } || { _success < (_mAMK+1) && _param > 1 } ) exitWith {
-	_unit addItem _refillItem;
+	_unit addItem _item;
 	private _str = if (_success > 0) then {
 		(localize "STR_ADV_REFILL_REFILLED_NEW");
 	} else {
