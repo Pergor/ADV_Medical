@@ -14,9 +14,10 @@ class CfgPatches
         requiredAddons[] = {
 			"ace_common"
 			,"ace_medical"
+			,"cba_common"
 		};
-		version = "1.0.0";
-		versionStr = "1.0.0";
+		version = "1.0.1";
+		versionStr = "1.0.1";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
@@ -41,11 +42,10 @@ class cfgFunctions {
 };
 
 class cfgWeapons {
-	class ACE_ItemCore;
+	class CBA_MiscItem;
 	class CBA_MiscItem_ItemInfo;
-
 	
-    class adv_aceRefill_autoKit: ACE_ItemCore {
+    class adv_aceRefill_manualKit: CBA_MiscItem {
         scope = 2;
 		scopeCurator = 2;
         displayName = "$STR_ADV_REFILL_NAME";
@@ -55,34 +55,37 @@ class cfgWeapons {
         descriptionShort = "$STR_ADV_REFILL_DESCRIPTION";
         descriptionUse = "$STR_ADV_REFILL_DESCRIPTIONUSE";
         class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 30;
+            mass = 120;
         };
 	};
 	
-    class adv_aceRefill_manualKit: adv_aceRefill_autoKit {
+    class adv_aceRefill_autoKit: adv_aceRefill_manualKit {
+        displayName = "$STR_ADV_REFILL_NAME_AUTO";
+		descriptionShort = "$STR_ADV_REFILL_DESCRIPTION_AUTO";
         class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 120;
-        };		
+            mass = 80;
+        };
 	};
 };
 
 class cfgVehicles {
 	class Item_Base_F;
 	
-	class adv_aceRefill_autoKitItem: Item_Base_F {
+	class adv_aceRefill_manualKitItem: Item_Base_F {
         scope = 2;
         scopeCurator = 2;
-        displayName = "Medical Refill Kit";
+        displayName = "$STR_ADV_REFILL_NAME";
         author = "[SeL] Belbo";
         vehicleClass = "Items";
 		model = "\A3\Weapons_F\Items\Medikit";
         class TransportItems {
-            MACRO_ADDITEM(adv_aceRefill_autoKit,1);
+            MACRO_ADDITEM(adv_aceRefill_manualKit,1);
         };
 	};
-	class adv_aceRefill_manualKitItem: adv_aceRefill_autoKitItem {
+	class adv_aceRefill_autoKitItem: adv_aceRefill_manualKitItem {
+		displayName = "$STR_ADV_REFILL_NAME_AUTO";
         class TransportItems {
-            MACRO_ADDITEM(adv_aceRefill_manualKit,1);
+            MACRO_ADDITEM(adv_aceRefill_autoKit,1);
         };
 	};
 };
