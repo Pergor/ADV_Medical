@@ -11,7 +11,7 @@ private _splint = isClass(configFile >> "CfgWeapons" >> "adv_aceSplint_splint");
 private _isMedic = _unit getVariable ["ACE_medical_medicClass", 0];
 private _return = [["",0]];
 
-if (_param isEqualTo "ADV_ACEREFILL_FAK") exitWith {
+if (_param isEqualTo 1) exitWith {
 	_return = if (_ML > 1 ) then {
 		[
 			["ACE_fieldDressing",10]
