@@ -20,17 +20,18 @@ private _add = {
 	for "_i" from 1 to _amount do { _unit addItem _type };
 };
 
+private _remove = {
+	params ["_target"];
+	sleep 60;
+	deleteVehicle _target;
+};
+
 private _drop = {
 	params ["_unit","_type"];
 	private _litter = createVehicle ["WeaponHolderSimulated", _unit modelToWorldVisual ((_unit selectionPosition "leftHand") vectorAdd [0,-0.45,-0.05]), [], 0, "CAN_COLLIDE"];
 	_litter setdir (getDir _unit -90);
 	_litter addWeaponCargoGlobal [_type, 1];
 	_litter setVelocity [sin(getdir _unit+90)*2,cos(getdir _unit+90)*2,0];
-	[_litter] spawn {
-		params ["_litter"];
-		sleep 60;
-		deleteVehicle _litter;
-	};
 	_litter
 };
 
@@ -58,7 +59,7 @@ private _success = 0;
 	nil
 } count _refills;
 
-if ( { _success < (_mAFAK+1) && _param isEqualTo 1 } || { _success < (_mAMK+1) && _param > 1 } ) exitWith {
+if ( ( _success < (_mAFAK+1) && _param < 2 ) || ( _success < (_mAMK+1) && _param > 1 ) ) exitWith {
 	_unit addItem _item;
 	private _str = if (_success > 0) then {
 		(localize "STR_ADV_REFILL_REFILLED_NEW");
@@ -71,5 +72,6 @@ if ( { _success < (_mAFAK+1) && _param isEqualTo 1 } || { _success < (_mAMK+1) &
 };
 
 systemChat (localize "STR_ADV_REFILL_REFILLED");
+[_litter] spawn _remove;
 
 nil
