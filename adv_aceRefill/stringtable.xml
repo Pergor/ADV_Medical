@@ -6,15 +6,30 @@
             <English>Open Medical Refill Kit</English>
             <German>Öffne Sanitätsnachfüllpack</German>
         </Key>
+        <Key ID="STR_ADV_REFILL_OPEN_FAK">
+			<Original>Open Individual First Aid Kit</Original>
+            <English>Open Individual First Aid Kit</English>
+            <German>Öffne Persönliche Sanitätsausstattung</German>
+        </Key>
         <Key ID="STR_ADV_REFILL_NAME">
-			<Original>Medical Refill Kit</Original>
-            <English>Medical Refill Kit</English>
-            <German>Sanitätsnachfüllpack</German>
+			<Original>[ADV] Medical Refill Kit</Original>
+            <English>[ADV] Medical Refill Kit</English>
+            <German>[ADV] Sanitätsnachfüllpack</German>
+        </Key>
+        <Key ID="STR_ADV_REFILL_NAME_EMPTY">
+			<Original>[ADV] Medical Refill Kit (empty)</Original>
+            <English>[ADV] Medical Refill Kit (empty)</English>
+            <German>[ADV] Sanitätsnachfüllpack (leer)</German>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME_AUTO">
-			<Original>Medical Refill Kit (automatic)</Original>
-            <English>Medical Refill Kit (automatic)</English>
-            <German>Sanitätsnachfüllpack (automatic)</German>
+			<Original>[ADV] Medical Refill Kit (automatic)</Original>
+            <English>[ADV] Medical Refill Kit (automatic)</English>
+            <German>[ADV] Sanitätsnachfüllpack (automatic)</German>
+        </Key>
+        <Key ID="STR_ADV_REFILL_NAME_FAK">
+			<Original>[ADV] Individual First Aid Kit</Original>
+            <English>[ADV] Individual First Aid Kit</English>
+            <German>[ADV] Persönliche Sanitätsausstattung</German>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTION">
 			<Original>Open to refill your medical items &lt;br/&gt;- only for medics</Original>
@@ -22,14 +37,24 @@
             <German>Öffnen, um Sanitätsmaterial aufzufrischen &lt;br/&gt;- Nur von Sanitätern nutzbar</German>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTION_AUTO">
-			<Original>Will refill your medical items automatically &lt;br/&gt;- only for medics</Original>
-            <English>Will refill your medical items automatically &lt;br/&gt;- only for medics</English>
+			<Original>Will refill your medical items automatically &lt;br/&gt;- Only for medics</Original>
+            <English>Will refill your medical items automatically &lt;br/&gt;- Only for medics</English>
             <German>Füllt Sanitätsmaterial wieder auf &lt;br/&gt;- Nur von Sanitätern nutzbar</German>
+        </Key>
+        <Key ID="STR_ADV_REFILL_DESCRIPTION_FAK">
+			<Original>Will refill your medical items &lt;br/&gt;- Contains medical items for one soldier</Original>
+            <English>Will refill your medical items &lt;br/&gt;- Contains medical items for one soldier</English>
+            <German>Füllt Sanitätsmaterial wieder auf &lt;br/&gt;- Enthält Sanitätsausstattung für einen Soldaten</German>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTIONUSE">
 			<Original>Refill medical items</Original>
             <English>Refill medical items</English>
             <German>Fülle Sanitätsmaterial auf</German>
+        </Key>
+        <Key ID="STR_ADV_REFILL_REFILLED">
+			<Original>Medical items have been refilled.</Original>
+            <English>Medical items have been refilled.</English>
+            <German>Sanitätsmaterial wurde aufgefüllt.</German>
         </Key>
 		</Package>
 </Project>
