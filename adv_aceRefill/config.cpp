@@ -58,7 +58,7 @@ class cfgWeapons {
         scope = 2;
 		scopeCurator = 2;
         displayName = "$STR_ADV_REFILL_NAME";
-        picture = "\A3\Weapons_F\Items\data\UI\gear_Medikit_CA.paa";
+        picture = "\adv_aceRefill\ui\Land_FirstAidKit_01_closed_F.paa";
 		model = "\A3\Weapons_F\Items\Medikit";
         descriptionShort = "$STR_ADV_REFILL_DESCRIPTION";
         descriptionUse = "$STR_ADV_REFILL_DESCRIPTIONUSE";
@@ -85,7 +85,7 @@ class cfgWeapons {
 	
     class adv_aceRefill_FAK: adv_aceRefill_manualKit {
         displayName = "$STR_ADV_REFILL_NAME_FAK";
-		picture = "\A3\Weapons_F\Items\data\UI\gear_FirstAidKit_CA.paa";
+		picture = "\adv_aceRefill\ui\FAK.paa";
 		model = "\a3\Weapons_F\Ammo\mag_FirstAidkit.p3d";
         descriptionShort = "$STR_ADV_REFILL_DESCRIPTION_FAK";
         descriptionUse = "$STR_ADV_REFILL_DESCRIPTIONUSE";
@@ -120,7 +120,7 @@ class cfgVehicles {
 	class adv_aceRefill_FAKItem: adv_aceRefill_manualKitItem {
 		displayName = "$STR_ADV_REFILL_NAME_FAK";
 		model = "\A3\Weapons_F\Items\FirstAidkit";
-		editorPreview = "\A3\EditorPreviews_F_Orange\Data\CfgVehicles\MedicalGarbage_01_FirstAidKit_F.jpg";
+		editorPreview = "\adv_aceRefill\ui\FAK.jpg";
         class TransportItems {
             MACRO_ADDITEM(adv_aceRefill_FAK,1);
         };
