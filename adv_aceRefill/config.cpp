@@ -40,12 +40,13 @@ class cfgFunctions {
 			class init { postInit = 1; };
 			class getRefill {};
 			class refill {};
+			class registerSettings {};
 		};
 	};
 };
 
 class Extended_PreInit_EventHandlers {
-	class anomaly_settings {
+	class adv_aceRefill_settings {
 		init = "call adv_aceRefill_fnc_registerSettings";
 	};
 };
