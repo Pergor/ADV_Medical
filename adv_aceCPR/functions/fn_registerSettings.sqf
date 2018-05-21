@@ -92,6 +92,15 @@ missionNamespace setVariable ["adv_aceCPR_probabilities",[40,15,5,85]];
 	}
 ] call CBA_Settings_fnc_init;
 
+[
+	"adv_aceCPR_useLocation_AED"
+	,"LIST"
+	,[localize "STR_ADV_ACECPR_SETTING_LOCATION_AED",localize "STR_ADV_ACECPR_SETTING_LOCATION_AED_DESCRIPTION"]
+	,CBA_SETTINGS_CAT
+	,[[0,1,2,3],["STR_ACE_Medical_AdvancedMedicalSettings_anywhere","STR_ACE_Medical_AdvancedMedicalSettings_vehicle","STR_ACE_Medical_AdvancedMedicalSettings_facility","STR_ACE_Medical_AdvancedMedicalSettings_vehicleAndFacility"],0]
+	,true
+] call CBA_Settings_fnc_init;
+
 /*
 //Disable for certain classes
 [

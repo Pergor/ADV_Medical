@@ -13,8 +13,8 @@
 			"ace_medical"
 			,"cba_settings"
 		};
-		version = "1.5.1";
-		versionStr = "1.5.1";
+		version = "1.5.2";
+		versionStr = "1.5.2";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
@@ -135,6 +135,7 @@ class ACE_Medical_Actions {
 			callbackSuccess = "adv_aceCPR_fnc_AED_action";
 			callbackProgress = "adv_aceCPR_fnc_AED_sound";
 			animationCaller = "AinvPknlMstpSnonWnonDnon_medic3";
+			treatmentLocations[] = {"adv_aceCPR_useLocation_AED"};
 		};
 	};
 };

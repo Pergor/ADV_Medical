@@ -90,5 +90,17 @@
 			<French>Probabilité du succès de l'usage d'une AED</French>
             <German>Erfolgswahrscheinlichkeit für Defibrillatoren</German>
         </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_LOCATION_AED">
+			<Original>Locations AED</Original>
+            <English>Locations AED</English>
+			<French>Lieu d'utilisation d'AED</French>
+            <German>Orte für AED</German>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_LOCATION_AED_DESCRIPTION">
+			<Original>Where can the AED be used?</Original>
+            <English>Where can the AED be used?</English>
+			<French>Où l'AED peut être utilisée?</French>
+            <German>Wo kann der AED verwendet werden?</German>
+        </Key>
 		</Package>
 </Project>
