@@ -15,24 +15,25 @@ private _handle = _this spawn {
 	private _reopenTime = missionNamespace getVariable ["adv_aceSplint_reopenTime",600];
 	private _time = (_reopenTime + ( round(random 60)-30 )) max 30;
 
-	_target setVariable ["adv_aceSplint_reopenUndo",false];
-	
-	if (ceil random 100 <= _chance) exitWith {
+	if ( ceil random 100 <= _chance ) exitWith {
 		[_target,format ["Splint for %1 will reopen in %2 seconds.",_bodyPart,_time]] call adv_aceSplint_fnc_diag;
 		
 		//make sure we exit, if PAK is used:
-		private _pakHandle = ["ace_treatmentSucceded",{
-			params ["_caller", "_target", "_selectionName", "_className"];
-			if (toUpper _className isEqualTo "PERSONALAIDKIT" && local _target) exitWith {
+		_target setVariable ["adv_aceSplint_reopenUndo",false];
+		private _pakHandle = ["ace_medical_treatmentAdvanced_fullHealLocal",{
+			params ["_caller", "_target"];
+			if (local _target) exitWith {
 				_target setVariable ["adv_aceSplint_reopenUndo",true];
+				_target setVariable ["adv_aceSplint_splints",[0,0,0,0,0,0]];
 			};
 		}] call CBA_fnc_addEventHandler;
 		
 		sleep _time;
 		
-		["ace_treatmentSucceded", _pakHandle] call CBA_fnc_removeEventHandler;
-		if (_target getVariable "adv_aceSplint_reopenUndo") exitWith {
-			[_target,"Splint was supposed to fall off, but PAK prevented that."] call adv_aceSplint_fnc_diag;		
+		["ace_medical_treatmentAdvanced_fullHealLocal", _pakHandle] call CBA_fnc_removeEventHandler;
+		if ( _target getVariable ["adv_aceSplint_reopenUndo",false] || (_target getVariable ["adv_aceSplint_splints",[0,0,0,0,0,0]]) isEqualTo [0,0,0,0,0,0] ) exitWith {
+			[_target,"PAK prevented falling off of splint."] call adv_aceSplint_fnc_diag;
+			_target setVariable ["adv_aceSplint_splints",[0,0,0,0,0,0]];
 			nil
 		};
 		
@@ -47,8 +48,7 @@ private _handle = _this spawn {
 		[_target,_hitpoint,_oldGetHitPoint,false] call ace_medical_fnc_setHitPointDamage;
 		[_target,_bodyPart,_oldGetHitPoint_BP,false] call ace_medical_fnc_setHitPointDamage;
 		
-		private _lost = if (ceil random 100 <= _reuse) then { false } else { true };
-		if (_lost) then {
+		if ( ceil random 100 <= _reuse ) then {
 			[localize "STR_ADV_ACESPLINT_REOPEN_HINT_LOST", "\adv_aceSplint\ui\splint.paa", nil, _target, 2.7] call ace_common_fnc_displayTextPicture;
 		} else {
 			[localize "STR_ADV_ACESPLINT_REOPEN_HINT", "\adv_aceSplint\ui\splint.paa", nil, _target, 2.7] call ace_common_fnc_displayTextPicture;
