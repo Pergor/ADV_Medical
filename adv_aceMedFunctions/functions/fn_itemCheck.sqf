@@ -46,7 +46,7 @@ while {({_x == "Medikit"} count items _unit) > 0} do {
     if (_ML >= 2) then {
 		[_unit,"ACE_packingBandage",3] call _add;
 		[_unit,"ACE_elasticBandage",4] call _add;
-		[_unit,"ACE_epinephrine",4] call _add;
+		[_unit,"ACE_epinephrine",8] call _add;
 		[_unit,"ACE_morphine",2] call _add;
 		[_unit,"ACE_plasmaIV_500",4] call _add;
 		[_unit,"ACE_tourniquet",1] call _add;
