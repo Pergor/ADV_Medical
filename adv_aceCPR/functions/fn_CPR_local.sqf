@@ -38,8 +38,10 @@ private _diceRoll = 1+floor(random 100);
 
 if ( _probability >= _diceRoll ) exitWith {
 	//resetting the values of the target:
-	_target setVariable ["ace_medical_inReviveState",false,true];
-	_target setVariable ["ace_medical_inCardiacArrest",false,true];
+	//_target setVariable ["ace_medical_inReviveState",false,true];
+	//_target setVariable ["ace_medical_inCardiacArrest",false,true];
+	_target setVariable ["ace_medical_inReviveState",nil,true];
+	_target setVariable ["ace_medical_inCardiacArrest",nil,true];
 	
 	private _gotEpi = _target getVariable ["ace_medical_epinephrine_insystem",0];
 	
