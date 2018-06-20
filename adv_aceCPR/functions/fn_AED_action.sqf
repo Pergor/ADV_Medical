@@ -13,11 +13,9 @@ params [
 private _inCardiac = _target getVariable ["ace_medical_inCardiacArrest",false];
 private _inRevive = _target getVariable ["ace_medical_inReviveState",false];
 
-//adds pain with each defib use:
-[_target, 0.4] call ace_medical_fnc_adjustPainLevel;
-//to units standing too close to _target as well:
+//pain will be added to all units standing too close to caller or target.
 private _bystanders = ( allUnits select {_x distance _target < 1.7} ) - [_caller];
-{ [_x, 0.2] call ace_medical_fnc_adjustPainLevel; nil; } count _bystanders;
+{ [_x, 0.2] remoteExec ["ace_medical_fnc_adjustPainLevel",_x]; nil; } count _bystanders;
 
 //if necessary execute the custom cpr action:
 if ( _inCardiac || _inRevive ) exitWith {
