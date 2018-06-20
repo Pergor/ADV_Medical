@@ -23,6 +23,9 @@ private _diceRoll = 1+floor(random 100);
 //diagnostics:
 [_caller,format ["probability was at %1 per-cent, and the dice-roll was %2.",_probability, _diceRoll]] call adv_aceCPR_fnc_diag;
 
+//adds pain with each defib use:
+[_target, 0.4] call ace_medical_fnc_adjustPainLevel;
+
 if ( _probability >= _diceRoll ) exitWith {
 	//resetting the values of the target:
 	//_target setVariable ["ace_medical_inReviveState",false,true];
