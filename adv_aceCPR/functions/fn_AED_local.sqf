@@ -25,8 +25,10 @@ private _diceRoll = 1+floor(random 100);
 
 if ( _probability >= _diceRoll ) exitWith {
 	//resetting the values of the target:
-	_target setVariable ["ace_medical_inReviveState",false,true];
-	_target setVariable ["ace_medical_inCardiacArrest",false,true];
+	//_target setVariable ["ace_medical_inReviveState",false,true];
+	//_target setVariable ["ace_medical_inCardiacArrest",false,true];
+	_target setVariable ["ace_medical_inReviveState",nil,true];
+	_target setVariable ["ace_medical_inCardiacArrest",nil,true];
 	
 	if ( _reviveEnabled > 0 ) then {
 		//sets the heartrate higher than CPR:
