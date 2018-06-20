@@ -13,8 +13,8 @@
 			"ace_medical"
 			,"cba_settings"
 		};
-		version = "1.5.2";
-		versionStr = "1.5.2";
+		version = "1.5.3";
+		versionStr = "1.5.3";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
@@ -129,7 +129,7 @@ class ACE_Medical_Actions {
             displayName = "Automated External Defibrillator";
 			displayNameProgress = "$STR_ADV_ACECPR_AED_PROGRESS";
 			items[] = {"adv_aceCPR_AED"};
-			condition = "!([(_this select 1)] call ace_common_fnc_isAwake) && missionNamespace getVariable ['ace_medical_enableRevive',0]>0 && missionNamespace getVariable ['adv_aceCPR_enable',true]";
+			condition = "!([(_this select 1)] call ace_common_fnc_isAwake) && missionNamespace getVariable ['adv_aceCPR_enable',true]";
 			treatmentTime = 8;
 			requiredMedic = 1;
 			callbackSuccess = "adv_aceCPR_fnc_AED_action";
