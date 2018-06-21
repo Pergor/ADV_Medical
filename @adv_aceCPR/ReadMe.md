@@ -1,5 +1,6 @@
 adv_aceCPR: Giving you a second chance if your everyday CPR doesn't do squat.
 
+The right folder name is \@adv_aceCPR\. If your folder name is any different, you might have gotten this mod from an unofficial source.
 
 With adv_aceCPR you can finally use ACE CPR to get someone out of the revive state without healing him completely, making gameplay much more interesting.
 Of course ACE³ and CBA are required.

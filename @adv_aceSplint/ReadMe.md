@@ -1,5 +1,7 @@
 ADV - ACE Splint offers you an item you can use to fix damaged arms and legs.
 
+The right folder name is \@adv_aceSplint\. If your folder name is any different, you might have gotten this mod from an unofficial source.
+
 Of course it only works with ace_medical_healHitPointAfterAdvBandage disabled.
 
 Settings can be changed with cba settings, or the following variables:

@@ -2,6 +2,8 @@ ADV - ACE Medical: A combination of ADV - ACE CPR and ADV - ACE Splint.
 
 Both of these mods can be enabled or configured separately with the CBA Settings System.
 
+The right folder name is \@adv_aceMedical\. If your folder name is any different, you might have gotten this mod from an unofficial source.
+
 Get them on their own at:
 	ADV - ACE CPR:
 	https://forums.bohemia.net/forums/topic/203195-adv-ace-cpr/
