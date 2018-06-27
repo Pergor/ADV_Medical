@@ -56,7 +56,7 @@ if (_selectionName in ["hand_l","hand_r"] && {[_unit, _selectionName] call ace_m
 //EDITED BY BELBO:
 private _height = 1.5;
 if (_inRevive) then {
-	_heartRateOutput = format [_heartRateOutput+("%1"),".<br/>You need to use CPR or AED to resuscitate."];
+	_heartRateOutput = format [_heartRateOutput+(".<br/>%1"),localize "STR_ADV_ACECPR_CHECKPULSE_HINT"];
 	_height = 2.5;
 };
 

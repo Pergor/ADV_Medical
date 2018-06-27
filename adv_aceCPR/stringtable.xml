@@ -184,5 +184,13 @@
 			<Chinese>那些物件可以被當作是固定式AED(使用逗號做區隔)?</Chinese>
 			<Chinesesimp>那些物件可以被当作是固定式AED(使用逗号做区隔)?</Chinesesimp>
 		</Key>
+		<Key ID="STR_ADV_ACECPR_CHECKPULSE_HINT">
+			<Original>You need to use CPR or AED to resuscitate.</Original>
+			<English>You need to use CPR or AED to resuscitate.</English>
+			<French>Vous devez utiliser RCR ou AED pour réanimer.</French>
+			<German>Es muss HLW oder AED benutzt werden.</German>
+			<Chinese>您需要使用CPR或AED进行复苏.</Chinese>
+			<Chinesesimp>您需要使用CPR或AED進行複蘇.</Chinesesimp>
+		</Key>
 		</Package>
 </Project>
