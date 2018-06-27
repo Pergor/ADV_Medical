@@ -66,6 +66,17 @@ class CfgFunctions {
 			class useAEDStation {};
 		};
 	};
+	class adv_aceCPR_ace_medical
+	{
+		tag = "ace_medical";
+		class ace_medical
+		{
+			class actionCheckPulseLocal
+			{
+				file = "adv_aceCPR\functions\fn_actionCheckPulseLocal.sqf";
+			};
+		};
+	};	
 };
 
 class Extended_PreInit_EventHandlers {
