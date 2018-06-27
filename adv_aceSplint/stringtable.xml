@@ -6,90 +6,120 @@
             <English>SAM splint</English>
 			<French>Attelle</French>
             <German>Alu-Polsterschiene</German>
+            <Chinese>軟鋁固定板</Chinese>
+			<Chinesesimp>软铝固定板</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_DISPLAYNAME_USED">
 			<Original>SAM splint (used)</Original>
             <English>SAM splint (used)</English>
 			<French>Attelle (déjà utilisée)</French>
             <German>Alu-Polsterschiene (benutzt)</German>
+            <Chinese>軟鋁固定板(已使用)</Chinese>
+			<Chinesesimp>软铝固定板(已使用)</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_DESCRIPTION">
 			<Original>Use to splint damaged limb</Original>
             <English>Use to splint damaged limb</English>
 			<French>Utiliser pour immobiliser un membre fracturé</French>
             <German>Zum Schienen verletzter Gliedmaßen</German>
+            <Chinese>使用固定板修復受損的肢體</Chinese>
+			<Chinesesimp>使用固定板修复受损的肢体</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_APPLIED">
 			<Original>%1 applied splint to %3</Original>
 			<English>%1 applied splint to %3</English>
 			<French>%1 pose une attelle à %3</French>
 			<German>%1 hat %3 geschient</German>
+            <Chinese>%1已對%3使用固定板</Chinese>
+			<Chinesesimp>%1已对%3使用固定板</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ACTION">
 			<Original>Apply SAM splint</Original>
             <English>Apply SAM splint</English>
 			<French>Poser une attelle</French>
             <German>Alu-Polsterschiene</German>
+            <Chinese>使用軟鋁固定板</Chinese>
+			<Chinesesimp>使用软铝固定板</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_PROGRESS">
 			<Original>Applying splint...</Original>
             <English>Applying splint...</English>
 			<French>Pose de l'attelle...</French>
             <German>Gliedmaß wird geschient...</German>
+            <Chinese>使用固定板中...</Chinese>
+			<Chinesesimp>使用固定板中...</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ARM">
 			<Original>arm</Original>
             <English>arm</English>
 			<French>bras</French>
             <German>Arm</German>
+            <Chinese>手臂</Chinese>
+			<Chinesesimp>手臂</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_LEG">
 			<Original>leg</Original>
             <English>leg</English>
 			<French>jambe</French>
             <German>Bein</German>
+            <Chinese>腿部</Chinese>
+			<Chinesesimp>腿部</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN">
 			<Original>Splint has come undone</Original>
             <English>Splint has come undone</English>
 			<French>Une attelle se délier</French>
             <German>Polsterschiene hat sich gelöst</German>
+            <Chinese>固定板已脫落</Chinese>
+			<Chinesesimp>固定板已脱落</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT">
 			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
             <English>One of your SAM splints has come undone! You can reuse the splint.</English>
 			<French>T'attelle se délier! Tu peus réemployer l'attelle.</French>
             <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann erneut verwendet werden.</German>
+            <Chinese>你的其中一個固定板已脫落!你仍可重複使用該固定板。</Chinese>
+			<Chinesesimp>你的其中一个固定板已脱落!你仍可重复使用该固定板。</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT_LOST">
 			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
             <English>One of your SAM splints has come undone! The splint is lost.</English>
 			<French>T'attelle se délier! Tu perds l'attelle.</French>
             <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann nicht erneut verwendet werden.</German>
+            <Chinese>你的其中一個固定板已脫落!該固定板已損毀。</Chinese>
+			<Chinesesimp>你的其中一个固定板已脱落!该固定板已损毁。</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_ENABLE">
 			<Original>Enable ADV - ACE Splint</Original>
             <English>Enable ADV - ACE Splint</English>
 			<French>Activer ADV - ACE Splint</French>
             <German>ADV - ACE Splint aktivieren</German>
+			<Chinese>開啟ADV - ACE固定板</Chinese>
+			<Chinesesimp>开启ADV - ACE固定板</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE">
 			<Original>Probability for splints to fall off</Original>
             <English>Probability for splints to fall off</English>
 			<French>Probabilité du desserrage</French>
             <German>Wahrscheinlichkeit für das Abfallen einer Schiene</German>
+			<Chinese>固定板脫落的機率</Chinese>
+			<Chinesesimp>固定板脱落的机率</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_TIME">
 			<Original>Time before a splint can fall off (+/-30 seconds)</Original>
             <English>Time before a splint can fall off (+/-30 seconds)</English>
 			<French>Durée avant une attelle peut se délier (+/-30 secondes)</French>
             <German>Dauer bevor eine Schiene abfallen kann (+/-30 Sekunden)</German>
+			<Chinese>多少時間後固定板可能會脫落(+/-30秒)</Chinese>
+			<Chinesesimp>多少时间后固定板可能会脱落(+/-30秒)</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_REUSE">
 			<Original>Probability for reusability of splints</Original>
             <English>Probability for reusability of splints</English>
 			<French>Probabilité pour la réutilisabilité de l'attelles</French>
             <German>Wahrscheinlichkeit für die Wiederverwendbarkeit einer Schiene</German>
+			<Chinese>固定板可重複使用的機率</Chinese>
+			<Chinesesimp>固定板可重复使用的机率</Chinesesimp>
         </Key>
 		</Package>
 </Project>
