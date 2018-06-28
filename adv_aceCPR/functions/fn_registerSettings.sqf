@@ -103,6 +103,7 @@ missionNamespace setVariable ["adv_aceCPR_probabilities",[40,15,5,85]];
 ] call CBA_Settings_fnc_init;
 
 //stationary AED objects:
+missionNamespace setVariable ["adv_aceCPR_AED_stationType",nil];
 [
 	"adv_aceCPR_AED_stationType"
 	,"EDITBOX"
