@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="adv">
+﻿<Project name="adv">
     <Package name="aceSplint">
         <Key ID="STR_ADV_ACESPLINT_DISPLAYNAME">
             <Original>SAM splint</Original>
@@ -121,5 +120,5 @@
             <Chinese>固定板可重複使用的機率</Chinese>
             <Chinesesimp>固定板可重复使用的机率</Chinesesimp>
         </Key>
-    </Package>
+        </Package>
 </Project>

@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="adv">
+﻿<Project name="adv">
     <Package name="aceCPR">
         <Key ID="STR_ADV_ACECPR_CPR_EXECUTE">
             <Original>%1 performed CPR</Original>
@@ -33,13 +32,45 @@
             <Chinese>%1已使用除顫器</Chinese>
             <Chinesesimp>%1已使用除颤器</Chinesesimp>
         </Key>
+        <Key ID="STR_ADV_ACECPR_AED_DISPLAYNAME">
+            <Original>Automated External Defibrillator</Original>
+            <English>Automated External Defibrillator</English>
+            <French>Défibrillateur Automatique</French>
+            <German>Automatisierter Externer Defibrillator</German>
+            <Chinese>自動體外除顫器</Chinese>
+            <Chinesesimp>自动体外除颤器</Chinesesimp>
+        </Key>
         <Key ID="STR_ADV_ACECPR_AED_ACTION">
             <Original>Use Defibrillator</Original>
             <English>Use Defibrillator</English>
             <French>Utiliser le défibrillateur</French>
-            <German>%1 hat den Defibrillator genutzt</German>
+            <German>Benutze Defibrillator</German>
             <Chinese>使用除顫器</Chinese>
             <Chinesesimp>使用除颤器</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_STATION_ACTION">
+            <Original>Activate Defibrillator</Original>
+            <English>Activate Defibrillator</English>
+            <French>Activer le défibrillateur</French>
+            <German>Aktiviere Defibrillator</German>
+            <Chinese>使用除顫器</Chinese>
+            <Chinesesimp>使用除颤器</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_STATION_HINT_ON">
+            <Original>You can use the Defibrillator during the next 12 seconds.</Original>
+            <English>You can use the Defibrillator during the next 12 seconds.</English>
+            <French>Tu peux utiliser le défibrillateur pendant les 12 prochaines secondes.</French>
+            <German>Der Defibrillator kann in den nächsten 12 Sekunden eingesetzt werden.</German>
+            <Chinese>你可以在12秒後再次使用除顫器。</Chinese>
+            <Chinesesimp>你可以在12秒后再次使用除颤器。</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_STATION_HINT_OFF">
+            <Original>Defibrillator deactivated.</Original>
+            <English>Defibrillator deactivated.</English>
+            <French>Défibrillateur désactivé.</French>
+            <German>Defibrillator deaktiviert.</German>
+            <Chinese>除顫器已停用。</Chinese>
+            <Chinesesimp>除颤器已停用。</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_DESCRIPTION">
             <Original>Use to resuscitate player</Original>
@@ -93,8 +124,8 @@
             <English>CPR-chance for ACE doctors</English>
             <French>CPR-probabilité pour ACE médecins</French>
             <German>CPR-Wahrscheinlichkeit für ACE-Doctors</German>
-            <Chinese>CPR成功機率 - ACE軍醫</Chinese>
-            <Chinesesimp>CPR成功机率 - ACE军医</Chinesesimp>
+            <Chinese>CPR成功機率 - ACE醫護兵</Chinese>
+            <Chinesesimp>CPR成功机率 - ACE医护兵</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_1">
             <Original>CPR-chance for ACE medics</Original>
@@ -136,5 +167,29 @@
             <Chinese>哪裡可以使用AED?</Chinese>
             <Chinesesimp>哪里可以使用AED?</Chinesesimp>
         </Key>
-    </Package>
+        <Key ID="STR_ADV_ACECPR_SETTING_STATION">
+            <Original>Stationary AED objects</Original>
+            <English>Stationary AED objects</English>
+            <French>Objets AED stationnaire</French>
+            <German>Stationäre AED-Objekte</German>
+            <Chinese>固定式AED物件</Chinese>
+            <Chinesesimp>固定式AED物件</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_SETTING_STATION_DESCRIPTION">
+            <Original>Which objects can be used as a stationary AED (seperate by comma)?</Original>
+            <English>Which objects can be used as a stationary AED (seperate by comma)?</English>
+            <French>Quels objets peuvent être utilisés comme AED stationnaire (séparé par une virgule)?</French>
+            <German>Welche Objekte können als stationärer AED eingesetzt werden (Aufzählung mit Komma)?</German>
+            <Chinese>那些物件可以被當作是固定式AED(使用逗號做區隔)?</Chinese>
+            <Chinesesimp>那些物件可以被当作是固定式AED(使用逗号做区隔)?</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_CHECKPULSE_HINT">
+            <Original>You need to use CPR or AED to resuscitate.</Original>
+            <English>You need to use CPR or AED to resuscitate.</English>
+            <French>Vous devez utiliser RCR ou AED pour réanimer.</French>
+            <German>Es muss HLW oder AED benutzt werden.</German>
+            <Chinese>您需要使用CPR或AED进行复苏.</Chinese>
+            <Chinesesimp>您需要使用CPR或AED進行複蘇.</Chinesesimp>
+        </Key>
+        </Package>
 </Project>

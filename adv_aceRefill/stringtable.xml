@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="adv">
+﻿<Project name="adv">
     <Package name="aceRefill">
         <Key ID="STR_ADV_REFILL_OPEN">
             <Original>Open Medical Refill Kit</Original>
@@ -92,5 +91,5 @@
             <Chinese>醫療物品並沒有補給完成。補給包並沒有被消耗。</Chinese>
             <Chinesesimp>医疗物品并没有补给完成。补给包并没有被消耗。</Chinesesimp>
         </Key>
-    </Package>
+        </Package>
 </Project>
