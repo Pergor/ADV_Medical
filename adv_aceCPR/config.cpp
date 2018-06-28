@@ -169,6 +169,18 @@ class cfgVehicles {
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0,1,1};
 		ace_dragging_carryDirection = 270;
+        ace_cargo_size = 1;
+		ace_cargo_canLoad = 1;
+	};
+	
+	class NATO_Box_Base;
+	class ACE_medicalSupplyCrate: NATO_Box_Base {
+		class TransportItems;
+	};
+	class ACE_medicalSupplyCrate_advanced: ACE_medicalSupplyCrate {
+		class TransportItems: TransportItems {
+			MACRO_ADDITEM(adv_aceCPR_AED,1);
+		};
 	};
 };
 
