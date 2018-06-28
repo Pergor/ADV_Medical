@@ -56,6 +56,7 @@ class CfgFunctions {
 			class AED_station_condition {};
 			class CPR_action {};
 			class CPR_local {};
+			class createAEDstations {};
 			class diag {};
 			class getBloodLoss {};
 			class getList {};
@@ -80,9 +81,15 @@ class CfgFunctions {
 };
 
 class Extended_PreInit_EventHandlers {
-	class adv_aceCPR_Settings {
+	class adv_aceCPR_preInit {
 		init = "call adv_aceCPR_fnc_registerSettings";
 	};
+};
+
+class Extended_PostInit_EventHandlers {
+    class adv_aceCPR_postInit {
+        init = "nul = [] spawn adv_aceCPR_fnc_createAEDstations";
+    };
 };
 
 class cfgWeapons {
