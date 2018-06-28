@@ -112,6 +112,15 @@ class cfgVehicles {
 			};
 		};
 	};
+	
+	//Add Item into ACE Advanced Medical Crate
+	class ACE_medicalSupplyCrate;
+	class ACE_medicalSupplyCrate_advanced : ACE_medicalSupplyCrate {
+		class TransportItems
+		{
+			MACRO_ADDITEM(adv_aceSplint_splint,25);
+		};
+	};
 };
 
 class ACE_Medical_Actions {

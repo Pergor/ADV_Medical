@@ -182,6 +182,15 @@ class cfgVehicles {
 			MACRO_ADDITEM(adv_aceCPR_AED,1);
 		};
 	};
+	
+	//Add Item into ACE Advanced Medical Crate
+	class ACE_medicalSupplyCrate;
+	class ACE_medicalSupplyCrate_advanced : ACE_medicalSupplyCrate {
+		class TransportItems
+		{
+			MACRO_ADDITEM(adv_aceCPR_AED,5);
+		};
+	};
 };
 
 class ACE_Medical_Actions {
