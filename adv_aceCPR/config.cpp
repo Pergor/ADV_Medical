@@ -170,6 +170,15 @@ class cfgVehicles {
 		ace_dragging_carryPosition[] = {0,1,1};
 		ace_dragging_carryDirection = 270;
 	};
+	
+	//Add Item into ACE Advanced Medical Crate
+	class ACE_medicalSupplyCrate;
+	class ACE_medicalSupplyCrate_advanced : ACE_medicalSupplyCrate {
+		class TransportItems
+		{
+			MACRO_ADDITEM(adv_aceCPR_AED,5);
+		};
+	};
 };
 
 class ACE_Medical_Actions {
