@@ -112,6 +112,16 @@ class cfgVehicles {
 			};
 		};
 	};
+	
+	class NATO_Box_Base;
+	class ACE_medicalSupplyCrate: NATO_Box_Base {
+		class TransportItems;
+	};
+	class ACE_medicalSupplyCrate_advanced: ACE_medicalSupplyCrate {
+		class TransportItems: TransportItems {
+			MACRO_ADDITEM(adv_aceSplint_splint,20);
+		};
+	};
 };
 
 class ACE_Medical_Actions {
