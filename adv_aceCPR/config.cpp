@@ -36,7 +36,7 @@
 			showDisabled = 0; \
 			displayName = "$STR_ADV_ACECPR_AED_STATION_ACTION"; \
 			condition = "missionNamespace getVariable ['adv_aceCPR_enable',true] && !(_player getVariable ['adv_aceCPR_usedAEDStation',false]) && (_player getVariable ['ace_medical_medicClass',0]) > 0"; \
-			statement = "[_player] call adv_aceCPR_fnc_useAEDStation"; \
+			statement = "[_player,_target] call adv_aceCPR_fnc_useAEDStation"; \
 			exceptions[] = {"isNotInside"}; \
 			icon = "\adv_aceCPR\ui\defib_action.paa"; \
 		};\

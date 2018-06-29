@@ -18,7 +18,7 @@ adv_aceCPR_aed_stationAction = [
 	"\adv_aceCPR\ui\defib_action.paa",
 	{
 		params ["_target","_caller","_arguments"];
-		[_caller] call adv_aceCPR_fnc_useAEDStation
+		[_caller,_target] call adv_aceCPR_fnc_useAEDStation
 	},
 	{
 		params ["_target","_caller"];
