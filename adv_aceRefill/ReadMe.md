@@ -9,8 +9,8 @@ All this mod does is add two objects that should refill medical items according 
 Only medics with ACE_medical_medicClass > 0 can use the manualKit and autoKit, so regular soldiers can carry around the refill kits for the medics until they need them.
 
 Refilled items can be set with the following variables:
-adv_aceRefill_FAK_var
-adv_aceRefill_CLS_var
+adv_aceRefill_FAK_var,
+adv_aceRefill_CLS_var,
 adv_aceRefill_SAN_var
 The have to be defined in this format: ["CLASSNAME",NUMBER,"CLASSNAME",NUMBER,"CLASSNAME",NUMBER]
 !!!!!!!!!!ANY DEVIATION IN THE FORMAT WILL BREAK THE REFILL-FUNCTIONS AND NO ITEMS WILL BE GIVEN!!!!!!!!!!
