@@ -1,96 +1,95 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="adv">
+﻿<Project name="adv">
     <Package name="aceRefill">
         <Key ID="STR_ADV_REFILL_OPEN">
-			<Original>Open Medical Refill Kit</Original>
+            <Original>Open Medical Refill Kit</Original>
             <English>Open Medical Refill Kit</English>
             <German>Öffne Sanitätsnachfüllpack</German>
             <Chinese>開啟醫療補充包</Chinese>
-			<Chinesesimp>开启医疗补充包</Chinesesimp>
+            <Chinesesimp>开启医疗补充包</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_OPEN_FAK">
-			<Original>Open Individual First Aid Kit</Original>
+            <Original>Open Individual First Aid Kit</Original>
             <English>Open Individual First Aid Kit</English>
             <German>Öffne Persönliche Sanitätsausstattung</German>
             <Chinese>開啟個別急救包</Chinese>
-			<Chinesesimp>开启个别急救包</Chinesesimp>
+            <Chinesesimp>开启个别急救包</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME">
-			<Original>[ADV] Medical Refill Kit</Original>
+            <Original>[ADV] Medical Refill Kit</Original>
             <English>[ADV] Medical Refill Kit</English>
             <German>[ADV] Sanitätsnachfüllpack</German>
             <Chinese>[ADV]醫療補充包</Chinese>
-			<Chinesesimp>[ADV]医疗补充包</Chinesesimp>
+            <Chinesesimp>[ADV]医疗补充包</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME_EMPTY">
-			<Original>[ADV] Medical Refill Kit (empty)</Original>
+            <Original>[ADV] Medical Refill Kit (empty)</Original>
             <English>[ADV] Medical Refill Kit (empty)</English>
             <German>[ADV] Sanitätsnachfüllpack (leer)</German>
             <Chinese>[ADV]醫療補充包(空)</Chinese>
-			<Chinesesimp>[ADV]医疗补充包(空)</Chinesesimp>
+            <Chinesesimp>[ADV]医疗补充包(空)</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME_AUTO">
-			<Original>[ADV] Medical Refill Kit (automatic)</Original>
+            <Original>[ADV] Medical Refill Kit (automatic)</Original>
             <English>[ADV] Medical Refill Kit (automatic)</English>
             <German>[ADV] Sanitätsnachfüllpack (automatic)</German>
             <Chinese>[ADV]醫療補充包(自動)</Chinese>
-			<Chinesesimp>[ADV]医疗补充包(自动)</Chinesesimp>
+            <Chinesesimp>[ADV]医疗补充包(自动)</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME_FAK">
-			<Original>[ADV] Individual First Aid Kit</Original>
+            <Original>[ADV] Individual First Aid Kit</Original>
             <English>[ADV] Individual First Aid Kit</English>
             <German>[ADV] Persönliche Sanitätsausstattung</German>
             <Chinese>[ADV]個別急救包</Chinese>
-			<Chinesesimp>[ADV]个别急救包</Chinesesimp>
+            <Chinesesimp>[ADV]个别急救包</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTION">
-			<Original>Open to refill your medical items &lt;br/&gt;- only for medics</Original>
+            <Original>Open to refill your medical items &lt;br/&gt;- only for medics</Original>
             <English>Open to refill your medical items &lt;br/&gt;- only for medics</English>
             <German>Öffnen, um Sanitätsmaterial aufzufrischen &lt;br/&gt;- Nur von Sanitätern nutzbar</German>
             <Chinese>開啟來補充你的醫療物品&lt;br/&gt;- 只給醫護兵</Chinese>
-			<Chinesesimp>开启来补充你的医疗物品&lt;br/&gt;- 只给医护兵</Chinesesimp>
+            <Chinesesimp>开启来补充你的医疗物品&lt;br/&gt;- 只给医护兵</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTION_AUTO">
-			<Original>Will refill your medical items automatically &lt;br/&gt;- Only for medics</Original>
+            <Original>Will refill your medical items automatically &lt;br/&gt;- Only for medics</Original>
             <English>Will refill your medical items automatically &lt;br/&gt;- Only for medics</English>
             <German>Füllt Sanitätsmaterial wieder auf &lt;br/&gt;- Nur von Sanitätern nutzbar</German>
             <Chinese>自動補充你的醫療物品&lt;br/&gt;- 只給醫護兵</Chinese>
-			<Chinesesimp>自动补充你的医疗物品&lt;br/&gt;- 只给医护兵</Chinesesimp>
+            <Chinesesimp>自动补充你的医疗物品&lt;br/&gt;- 只给医护兵</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTION_FAK">
-			<Original>Will refill your medical items &lt;br/&gt;- Contains medical items for one soldier</Original>
+            <Original>Will refill your medical items &lt;br/&gt;- Contains medical items for one soldier</Original>
             <English>Will refill your medical items &lt;br/&gt;- Contains medical items for one soldier</English>
             <German>Füllt Sanitätsmaterial wieder auf &lt;br/&gt;- Enthält Sanitätsausstattung für einen Soldaten</German>
             <Chinese>將會補給你的醫療物品&lt;br/&gt;- 只給一般士兵的醫療物品</Chinese>
-			<Chinesesimp>将会补给你的医疗物品&lt;br/&gt;- 只给一般士兵的医疗物品</Chinesesimp>
+            <Chinesesimp>将会补给你的医疗物品&lt;br/&gt;- 只给一般士兵的医疗物品</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTIONUSE">
-			<Original>Refill medical items</Original>
+            <Original>Refill medical items</Original>
             <English>Refill medical items</English>
             <German>Fülle Sanitätsmaterial auf</German>
             <Chinese>補給醫療物品</Chinese>
-			<Chinesesimp>补给医疗物品</Chinesesimp>
+            <Chinesesimp>补给医疗物品</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_REFILLED">
-			<Original>Medical items have been refilled.</Original>
+            <Original>Medical items have been refilled.</Original>
             <English>Medical items have been refilled.</English>
             <German>Sanitätsmaterial wurde aufgefüllt.</German>
             <Chinese>醫療物品已補給完成。</Chinese>
-			<Chinesesimp>医疗物品已补给完成。</Chinesesimp>
+            <Chinesesimp>医疗物品已补给完成。</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_REFILLED_NEW">
-			<Original>Medical items have been refilled. Refill item has not been consumed.</Original>
+            <Original>Medical items have been refilled. Refill item has not been consumed.</Original>
             <English>Medical items have been refilled. Refill item has not been consumed.</English>
             <German>Sanitätsmaterial wurde aufgefüllt. Das Nachfüllpack wurde nicht verbraucht.</German>
             <Chinese>醫療物品已補給完成。補給包並沒有被消耗。</Chinese>
-			<Chinesesimp>医疗物品已补给完成。补给包并没有被消耗。</Chinesesimp>
+            <Chinesesimp>医疗物品已补给完成。补给包并没有被消耗。</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_REFILL_REFILLED_NOT">
-			<Original>Medical items have not been refilled. Refill item has not been consumed.</Original>
+            <Original>Medical items have not been refilled. Refill item has not been consumed.</Original>
             <English>Medical items have not been refilled. Refill item has not been consumed.</English>
             <German>Sanitätsmaterial wurde nicht aufgefüllt. Das Nachfüllpack wurde nicht verbraucht.</German>
             <Chinese>醫療物品並沒有補給完成。補給包並沒有被消耗。</Chinese>
-			<Chinesesimp>医疗物品并没有补给完成。补给包并没有被消耗。</Chinesesimp>
+            <Chinesesimp>医疗物品并没有补给完成。补给包并没有被消耗。</Chinesesimp>
         </Key>
-		</Package>
+        </Package>
 </Project>
