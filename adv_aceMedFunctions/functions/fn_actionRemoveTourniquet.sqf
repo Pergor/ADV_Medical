@@ -36,7 +36,8 @@ _target setVariable ["ace_medical_tourniquets", _tourniquets, true];
 // Adding the tourniquet item to the caller
 //CHANGE BY BELBO - START
 //_caller addItem "ACE_tourniquet";
-if ( [_target, "ACE_tourniquet"] call ace_common_fnc_hasItem ) then {
+//if ( [_target, "ACE_tourniquet"] call ace_common_fnc_hasItem ) then {
+if ( ({_x == "ACE_tourniquet"} count (items _target)) > 1 ) then {
 	_caller addItem "ACE_tourniquet";
 } else {
 	_target addItem "ACE_tourniquet";
