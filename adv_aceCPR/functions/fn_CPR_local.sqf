@@ -46,19 +46,21 @@ if ( _probability >= _diceRoll ) exitWith {
 	private _gotEpi = _target getVariable ["ace_medical_epinephrine_insystem",0];
 	
 	//if player has a higher bloodvolume, the new heart rate will be lower.
-	if ( _reviveEnabled > 0 ) then {
-		call {
-			if (_target getVariable "ace_medical_bloodVolume" > 60 && !(_gotEpi > 0.5)) exitWith {
-				_target setVariable ["ace_medical_heartRate",30, true];
-			};
-			_target setVariable ["ace_medical_heartRate",40, true];
+	//if ( _reviveEnabled > 0 ) then {
+	call {
+		if (_target getVariable "ace_medical_bloodVolume" > 60 && !(_gotEpi > 0.5)) exitWith {
+			_target setVariable ["ace_medical_heartRate",30, true];
 		};
-		
-		//if the player's bloodVolume is below the minimal value, it will be reset to 30:
-		if (_target getVariable "ace_medical_bloodVolume" < 30) then {
-			_target setVariable ["ace_medical_bloodVolume",30, true];
-		};
+		_target setVariable ["ace_medical_heartRate",40, true];
 	};
+	
+	//if the player's bloodVolume is below the minimal value, it will be reset to 30:
+	private _threshold = if (isClass(configFile >> "CfgPatches" >> "diwako_ragdoll")) then {40} else {30};
+	if (_target getVariable "ace_medical_bloodVolume" < _threshold) then {
+		_target setVariable ["ace_medical_bloodVolume",_threshold, true];
+	};
+	
+	//};
 	
 	//log the custom cpr success to the treatment log:
 	[_target, "activity", localize "STR_ADV_ACECPR_CPR_COMPLETED", [[_caller, false, true] call ace_common_fnc_getName]] call ace_medical_fnc_addToLog;

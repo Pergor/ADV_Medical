@@ -33,15 +33,16 @@ if ( _probability >= _diceRoll ) exitWith {
 	_target setVariable ["ace_medical_inReviveState",nil,true];
 	_target setVariable ["ace_medical_inCardiacArrest",nil,true];
 	
-	if ( _reviveEnabled > 0 ) then {
-		//sets the heartrate higher than CPR:
-		_target setVariable ["ace_medical_heartRate",40, true];
-		
-		//if the player's bloodVolume is below the minimal value, it will be reset to 30:
-		if (_target getVariable "ace_medical_bloodVolume" < 30) then {
-			_target setVariable ["ace_medical_bloodVolume",30, true];
-		};
+	//if ( _reviveEnabled > 0 ) then {
+	//sets the heartrate higher than CPR:
+	_target setVariable ["ace_medical_heartRate",40, true];
+	
+	//if the player's bloodVolume is below the minimal value, it will be reset to 30:
+	private _threshold = if (isClass(configFile >> "CfgPatches" >> "diwako_ragdoll")) then {40} else {30};
+	if (_target getVariable "ace_medical_bloodVolume" < _threshold) then {
+		_target setVariable ["ace_medical_bloodVolume",_threshold, true];
 	};
+	//};
 	
 	//log the custom cpr success to the treatment log:
 	[_target, "activity", localize "STR_ADV_ACECPR_AED_COMPLETED", [[_caller, false, true] call ace_common_fnc_getName]] call ace_medical_fnc_addToLog;
