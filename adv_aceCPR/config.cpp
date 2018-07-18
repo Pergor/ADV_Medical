@@ -4,6 +4,7 @@
     {
         units[] = {
 			"adv_aceCPR_AEDItem"
+			//,"adv_aceCPR_AEDStation"
 		};
         weapons[] = {
 			"adv_aceCPR_AED"
@@ -50,6 +51,7 @@ class CfgFunctions {
 			file = "adv_aceCPR\functions";
 			class addTime {};
 			class AED_action {};
+			//class AED_countUses {};
 			class AED_local {};
 			class AED_sound {};
 			class AED_station {};
@@ -106,6 +108,17 @@ class cfgWeapons {
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 30;
         };
+	};	
+    class adv_aceCPR_AED_used: ACE_ItemCore {
+        scope = 1;
+        displayName = "$STR_ADV_ACECPR_AED_USED_DISPLAYNAME";
+        picture = "\adv_aceCPR\ui\defib.paa";
+		model = "\A3\Structures_F_EPA\Items\Medical\Defibrillator_F.p3d";
+        descriptionShort = "$STR_ADV_ACECPR_AED_DESCRIPTION";
+        descriptionUse = "$STR_ADV_ACECPR_AED_DESCRIPTION";
+        class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 30;
+        };
 	};
 };
 
@@ -122,6 +135,20 @@ class cfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(adv_aceCPR_AED,1);
         };
+	};
+	class adv_aceCPR_AEDStation: Item_Base_F {
+        scope = 0;
+        scopeCurator = 0;
+        displayName = "$STR_ADV_ACECPR_AEDSTATION_DISPLAYNAME";
+        author = "[SeL] Belbo";
+        vehicleClass = "Items";
+		//model = "\adv_aceCPR\ui\defib.p3d";
+		MACRO_AED_STATION
+		ace_dragging_canCarry = 1;
+		ace_dragging_carryPosition[] = {0,1,1};
+		ace_dragging_carryDirection = 270;
+        ace_cargo_size = 1;
+		ace_cargo_canLoad = 1;
 	};
 	
 	//ace_medical_actions:
@@ -197,7 +224,7 @@ class ACE_Medical_Actions {
             displayName = "$STR_ADV_ACECPR_AED_DISPLAYNAME";
 			displayNameProgress = "$STR_ADV_ACECPR_AED_PROGRESS";
 			items[] = {"adv_aceCPR_AED"};
-			condition = "!([(_this select 1)] call ace_common_fnc_isAwake) && missionNamespace getVariable ['adv_aceCPR_enable',true]";
+			condition = "!([_target] call ace_common_fnc_isAwake) && missionNamespace getVariable ['adv_aceCPR_enable',true]";
 			treatmentTime = 8;
 			requiredMedic = 1;
 			callbackSuccess = "adv_aceCPR_fnc_AED_action";

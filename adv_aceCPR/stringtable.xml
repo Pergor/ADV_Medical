@@ -41,6 +41,30 @@
 			<Chinese>自動體外除顫器</Chinese>
 			<Chinesesimp>自动体外除颤器</Chinesesimp>
         </Key>
+        <Key ID="STR_ADV_ACECPR_AED_USED_DISPLAYNAME">
+			<Original>Automated External Defibrillator (depleted)</Original>
+			<English>Automated External Defibrillator (depleted)</English>
+			<French>Défibrillateur Automatique (appauvri)</French>
+			<German>Automatisierter Externer Defibrillator (leer)</German>
+			<Chinese>自動體外除顫器（耗盡）</Chinese>
+			<Chinesesimp>自动体外除颤器 （耗尽）</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AEDSTATION_DISPLAYNAME">
+			<Original>Manual External Defibrillator</Original>
+			<English>Manual External Defibrillator</English>
+			<French>Défibrillateur Manuel</French>
+			<German>Manueller Externer Defibrillator</German>
+			<Chinese>手动体外除颤器</Chinese>
+			<Chinesesimp>手動體外除顫器</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACECPR_AED_DESCRIPTION">
+			<Original>Use to resuscitate player</Original>
+			<English>Use to resuscitate player</English>
+			<French>Utiliser pour la réanimation</French>
+			<German>Stellt Puls wieder her</German>
+            <Chinese>用來甦醒玩家</Chinese>
+			<Chinesesimp>用来苏醒玩家</Chinesesimp>
+        </Key>
         <Key ID="STR_ADV_ACECPR_AED_ACTION">
 			<Original>Use Defibrillator</Original>
 			<English>Use Defibrillator</English>
@@ -72,14 +96,6 @@
 			<German>Defibrillator deaktiviert.</German>
 			<Chinese>除顫器已停用。</Chinese>
 			<Chinesesimp>除颤器已停用。</Chinesesimp>
-        </Key>
-        <Key ID="STR_ADV_ACECPR_AED_DESCRIPTION">
-			<Original>Use to resuscitate player</Original>
-			<English>Use to resuscitate player</English>
-			<French>Utiliser pour la réanimation</French>
-			<German>Stellt Puls wieder her</German>
-            <Chinese>用來甦醒玩家</Chinese>
-			<Chinesesimp>用来苏醒玩家</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_PROGRESS">
 			<Original>Using the defibrillator...</Original>
@@ -191,6 +207,14 @@
 			<German>Es muss HLW oder AED benutzt werden.</German>
 			<Chinese>您需要使用CPR或AED进行复苏.</Chinese>
 			<Chinesesimp>您需要使用CPR或AED進行複蘇.</Chinesesimp>
+		</Key>
+		<Key ID="STR_ADV_ACECPR_SETTING_AED_DEPLETED">
+			<Original>Your AED's battery is depleted.</Original>
+			<English>Your AED's battery is depleted.</English>
+			<French>La batterie de votre AED est épuisée.</French>
+			<German>AED-Batterie ist leer.</German>
+			<Chinese>你的AED電池耗盡了。</Chinese>
+			<Chinesesimp>你的AED电池耗尽了。</Chinesesimp>
 		</Key>
 		</Package>
 </Project>
