@@ -36,7 +36,11 @@ Depending on your settings (adv_aceCPR_maxTime, see below) you might be too late
 With version 1.4.0 a new item has been added to ADV - ACE CPR: A defibrillator.
 The defibrillator works almost like the CPR action, but you have to have an AED in your inventory and it's much faster and the success rate is way higher.
 Using the defibrillator will induce pain to all units who stand too close to a patient when the defibrillator is used (except for the operator).
-You can only use the defibrillator if you're a medic (ace_medical_medicClass > 0). 
+You can only use the defibrillator if you're a medic (ace_medical_medicClass > 0).
+
+With version 1.4.4 I have added the option to use stationary AEDs. You can set the stationary AED objects via CBA settings. Default is Land_Defibrillator_F.
+You can place a stationary AED via editor or curator. Players can approach the item and use an ACE action to activate the stationary AED.
+By activating it they have 12 seconds to use it on any unconscious patient in a radius of five meters. After 12 seconds the stationary AED will deactivate again.
 
 For mission builders:
 You can set the probabilities for successful resuscitation individually depending on the value for ace_medical_medicClass a player's unit has,
