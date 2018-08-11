@@ -4,13 +4,17 @@ ADV-aceSplint - by Belbo
 
 private _handle = _this spawn {
 
-	params ["_target","_oldBPS","_oldGetHitPoint","_oldGetHitPoint_BP","_hitPointArray","_selectionNumber"];
+	params ["_caller","_target","_oldBPS","_oldGetHitPoint","_oldGetHitPoint_BP","_hitPointArray","_selectionNumber"];
 
 	_hitPointArray params ["_hitpoint","_bodyPart","_selection","_str"];
 
 	[_target,format ["Reopening of Splint is being handled for %1.",_bodyPart]] call adv_aceSplint_fnc_diag;
 
-	private _chance = (missionNamespace getVariable ["adv_aceSplint_reopenChance",0]) min 100;
+	private _chance_medic = (missionNamespace getVariable ["adv_aceSplint_reopenChance_medic",0]) min 100;
+	private _chance_regular = (missionNamespace getVariable ["adv_aceSplint_reopenChance_regular",0]) min 100;
+	private _isMedic = _caller getVariable ["ACE_medical_medicClass", 0];
+	private _chance = if ( _isMedic > 0 ) then { _chance_medic } then { _chance_regular };
+	//private _chance = (missionNamespace getVariable ["adv_aceSplint_reopenChance",0]) min 100;
 	private _reuse = (missionNamespace getVariable ["adv_aceSplint_reuseChance",80]) min 100;
 	private _reopenTime = missionNamespace getVariable ["adv_aceSplint_reopenTime",600];
 	private _time = (_reopenTime + ( round(random 60)-30 )) max 30;

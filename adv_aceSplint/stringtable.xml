@@ -97,7 +97,15 @@
 			<Chinese>開啟ADV - ACE固定板</Chinese>
 			<Chinesesimp>开启ADV - ACE固定板</Chinesesimp>
         </Key>
-        <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE">
+        <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE_MED">
+			<Original>Probability for splints to fall off for medics</Original>
+            <English>Probability for splints to fall off for medics</English>
+			<French>Probabilité du desserrage pour d'infirmiers</French>
+            <German>Wahrscheinlichkeit für das Abfallen einer Schiene (Sanitäter)</German>
+			<Chinese>固定板脫落的機率 (护理人员)</Chinese>
+			<Chinesesimp>固定板脱落的机率 (護理人員)</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE_REG">
 			<Original>Probability for splints to fall off</Original>
             <English>Probability for splints to fall off</English>
 			<French>Probabilité du desserrage</French>

@@ -35,7 +35,7 @@ private _nameTarget = [_caller, false, true] call ace_common_fnc_getName;
 
 private _chance = missionNamespace getVariable ["adv_aceSplint_reopenChance",0];
 if (_chance > 0) then {
-	[_target,_oldBPS,_oldGetHitPoint,_oldGetHitPoint_BP,_hitPointArray,_selectionNumber] call adv_aceSplint_fnc_reopen;
+	[_caller,_target,_oldBPS,_oldGetHitPoint,_oldGetHitPoint_BP,_hitPointArray,_selectionNumber] call adv_aceSplint_fnc_reopen;
 };
 
 nil

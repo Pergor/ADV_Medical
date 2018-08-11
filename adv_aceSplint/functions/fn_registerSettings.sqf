@@ -14,13 +14,23 @@ ADV-aceSplint - by Belbo
 	,true
 ] call CBA_Settings_fnc_init;
 
-//Reopen Chance
+//Reopen Chance (MEDICS)
 [
-	"adv_aceSplint_reopenChance"
+	"adv_aceSplint_reopenChance_medic"
 	,"SLIDER"
-	,localize "STR_ADV_ACESPLINT_SETTING_CHANCE"
+	,localize "STR_ADV_ACESPLINT_SETTING_CHANCE_MED"
 	,CBA_SETTINGS_CAT
 	,[0,100,0,0]
+	,true
+] call CBA_Settings_fnc_init;
+
+//Reopen Chance (REGULAR)
+[
+	"adv_aceSplint_reopenChance_regular"
+	,"SLIDER"
+	,localize "STR_ADV_ACESPLINT_SETTING_CHANCE_REG"
+	,CBA_SETTINGS_CAT
+	,[0,100,30,0]
 	,true
 ] call CBA_Settings_fnc_init;
 
