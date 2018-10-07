@@ -15,8 +15,8 @@
 			"ace_medical"
 			,"cba_settings"
 		};
-		version = "1.1.3";
-		versionStr = "1.1.3";
+		version = "1.1.5";
+		versionStr = "1.1.5";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
@@ -27,6 +27,17 @@
     count = COUNT; \
 }
 
+#define EXCEPTIONS exceptions[] = {};
+
+#define MACRO_CHECKACTION(LIMB) class CheckLimb: fieldDressing {	\
+	displayName = "$STR_ADV_ACESPLINT_ACTION_CHECKLIMBS";	\
+	condition = "[_player, _target, LIMB, 'CheckLimbs'] call ace_medical_fnc_canTreatCached";	\
+	statement = "[_player, _target, LIMB, 'CheckLimbs'] call ace_medical_fnc_treatment";	\
+	EXCEPTIONS	\
+	showDisabled = 0;	\
+	icon = "";	\
+};
+
 class CfgFunctions {
 	class adv_aceSplint {
 		tag = "adv_aceSplint";
@@ -34,6 +45,7 @@ class CfgFunctions {
 			file = "adv_aceSplint\functions";
 			class init { postInit = 1; };
 			class canSplint {};
+			class checkLimbs {};
 			class diag {};
 			class getHitPoint {};
 			class registerSettings {};
@@ -96,7 +108,6 @@ class cfgVehicles {
 	class Man;
 	class CAManBase: Man {
 		class ACE_Actions {
-			#define EXCEPTIONS exceptions[] = {};
 			#include "ace_medical_actions.hpp"
 			class ACE_MainActions {
 				class Medical {
@@ -139,6 +150,21 @@ class ACE_Medical_Actions {
 			requiredMedic = 0;
 			itemConsumed = 1;
 			callbackSuccess = "adv_aceSplint_fnc_splint";
+		};
+        class CheckLimbs: fieldDressing {
+            displayName = "$STR_ADV_ACESPLINT_ACTION_CHECKLIMBS";
+			displayNameProgress = "$STR_ADV_ACESPLINT_CHECKLIMBS_PROGRESS";
+            items[] = {};
+            category = "examine";
+            allowedSelections[] = {"hand_l", "hand_r", "leg_l", "leg_r"};
+            allowSelfTreatment = 1;
+            treatmentTime = 3;
+            callbackSuccess = "adv_aceSplint_fnc_checkLimbs";
+            callbackFailure = "";
+            callbackProgress = "";
+			condition = "missionNamespace getVariable ['adv_aceSplint_enable',false] && missionNamespace getVariable ['ace_medical_healHitPointAfterAdvBandage',true]";
+            itemConsumed = 0;
+            litter[] = {};
 		};
 	};
 };

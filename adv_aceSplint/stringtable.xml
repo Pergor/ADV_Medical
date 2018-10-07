@@ -57,6 +57,14 @@
             <Chinese>手臂</Chinese>
 			<Chinesesimp>手臂</Chinesesimp>
         </Key>
+        <Key ID="STR_ADV_ACESPLINT_ARMS">
+			<Original>arms</Original>
+            <English>arms</English>
+			<French>bras</French>
+            <German>Armen</German>
+            <Chinese>武器</Chinese>
+			<Chinesesimp>武器</Chinesesimp>
+        </Key>
         <Key ID="STR_ADV_ACESPLINT_LEG">
 			<Original>leg</Original>
             <English>leg</English>
@@ -64,6 +72,14 @@
             <German>Bein</German>
             <Chinese>腿部</Chinese>
 			<Chinesesimp>腿部</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_LEGS">
+			<Original>legs</Original>
+            <English>legs</English>
+			<French>jambes</French>
+            <German>Beinen</German>
+            <Chinese>腿</Chinese>
+			<Chinesesimp>腿</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN">
 			<Original>Splint has come undone</Original>
@@ -128,6 +144,46 @@
             <German>Wahrscheinlichkeit für die Wiederverwendbarkeit einer Schiene</German>
 			<Chinese>固定板可重複使用的機率</Chinese>
 			<Chinesesimp>固定板可重复使用的机率</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_MESSAGE">
+			<Original>Patient %1 %2 &lt;br/&gt; %1 %3</Original>
+            <English>Patient %1 %2 &lt;br/&gt; %1 %3</English>
+			<French>Patient %1 %2 &lt;br/&gt; %1 %3</French>
+            <German>Patient %1 %2 &lt;br/&gt; %1 %3</German>
+			<Chinese>病人%1 %2 &lt;br/&gt; %1 %3</Chinese>
+			<Chinesesimp>病人%1 %2 &lt;br/&gt; %1 %3</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_HIT">
+			<Original>has been wounded and needs a SAM-Splint on his %1</Original>
+            <English>has been wounded and needs a SAM-Splint on his %1</English>
+			<French>a été blessé et a besoin d'attelles au %1</French>
+            <German>wurde verletzt und benötigt eine Alu-Polsterschiene an seinen %1</German>
+			<Chinese>受伤了，需要夹板: %1</Chinese>
+			<Chinesesimp>受傷了，需要夾板: %1</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_NOTHIT">
+			<Original>needs no Splints on his %1</Original>
+            <English>needs no Splints on his %1</English>
+			<French>n'a pas besoin d'attelles sur ses %1</French>
+            <German>benötigt keine Schienung an seinen %1</German>
+			<Chinese>不需要他的夾板: %1</Chinese>
+			<Chinesesimp>不需要他的夾板: %1</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_ACTION_CHECKLIMBS">
+			<Original>Limb analysis</Original>
+            <English>Limb analysis</English>
+			<French>Analyse des membres</French>
+            <German>Gliedmaßen-Check</German>
+			<Chinese>肢体分析</Chinese>
+			<Chinesesimp>肢體分析</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_PROGRESS">
+			<Original>Checking limb...</Original>
+            <English>Checking limb...</English>
+			<French>Vérifie le membre...</French>
+            <German>Überprüfe Gliedmaße...</German>
+			<Chinese>檢查肢體...</Chinese>
+			<Chinesesimp>檢查肢體...</Chinesesimp>
         </Key>
 		</Package>
 </Project>

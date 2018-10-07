@@ -7,6 +7,7 @@
 		EXCEPTIONS
 		icon = "\adv_acesplint\ui\splint_action.paa";
 	};
+	MACRO_CHECKACTION('hand_l')
 };
 class ACE_ArmRight {
 	class fieldDressing;
@@ -17,6 +18,7 @@ class ACE_ArmRight {
 		EXCEPTIONS
 		icon = "\adv_acesplint\ui\splint_action.paa";
 	};
+	MACRO_CHECKACTION('hand_r')
 };
 class ACE_LegLeft {
 	class fieldDressing;
@@ -27,6 +29,7 @@ class ACE_LegLeft {
 		EXCEPTIONS
 		icon = "\adv_acesplint\ui\splint_action.paa";
 	};
+	MACRO_CHECKACTION('leg_l')
 };
 class ACE_LegRight {
 	class fieldDressing;
@@ -37,4 +40,5 @@ class ACE_LegRight {
 		EXCEPTIONS
 		icon = "\adv_acesplint\ui\splint_action.paa";
 	};
+	MACRO_CHECKACTION('leg_r')
 };
