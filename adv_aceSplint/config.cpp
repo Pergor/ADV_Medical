@@ -54,6 +54,14 @@ class CfgFunctions {
 			class splint {};
 		};
 	};
+	class adv_aceMedical_Menu {
+	tag = "ace_medical_menu";
+		class ace_medical_menu {
+		class updateUIInfo {
+		file = "adv_aceSplint\functions\fn_updateUIInfo.sqf";
+      };
+    };
+  };
 };
 
 class Extended_PreInit_EventHandlers {
