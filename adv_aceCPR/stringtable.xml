@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="adv">
     <Package name="aceCPR">
         <Key ID="STR_ADV_ACECPR_CPR_EXECUTE">
@@ -8,6 +8,7 @@
 			<French>%1 à effectué une RCP</French>
             <Chinese>%1已執行完CPR</Chinese>
 			<Chinesesimp>%1已执行完CPR</Chinesesimp>
+			<Polish>%1 przeprowadził RKO</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_CPR_COMPLETED">
 			<Original>%1 performed CPR and stabilized the patient</Original>
@@ -16,6 +17,7 @@
             <German>%1 hat HLW durchgeführt und den Patienten stabilisiert</German>
             <Chinese>%1已執行完CPR並穩定了傷患</Chinese>
 			<Chinesesimp>%1已执行完CPR并稳定了伤患</Chinesesimp>
+			<Polish>%1 przeprowadził RKO i ustabilizował pacjenta</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_CPR_FATAL">
 			<Original>%1 performed CPR - but the patient will not wake up</Original>
@@ -24,6 +26,7 @@
             <German>%1 hat HLW durchgeführt - der Patient ist nicht mehr zu retten</German>
             <Chinese>%1已執行完CPR - 但患者並不會甦醒</Chinese>
 			<Chinesesimp>%1已执行完CPR - 但患者并不会苏醒</Chinesesimp>
+			<Polish>%1 przeprowadził RKO - pacjent jest jednak nie do uratowania</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_EXECUTE">
 			<Original>%1 used the Defibrillator</Original>
@@ -32,6 +35,7 @@
 			<German>%1 hat den Defibrillator genutzt</German>
             <Chinese>%1已使用除顫器</Chinese>
 			<Chinesesimp>%1已使用除颤器</Chinesesimp>
+			<Polish>%1 użył Defibrylatora</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_DISPLAYNAME">
 			<Original>Automated External Defibrillator</Original>
@@ -40,6 +44,7 @@
 			<German>Automatisierter Externer Defibrillator</German>
 			<Chinese>自動體外除顫器</Chinese>
 			<Chinesesimp>自动体外除颤器</Chinesesimp>
+			<Polish>Automatyczny Zewnętrzny Defibrylator</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_USED_DISPLAYNAME">
 			<Original>Automated External Defibrillator (depleted)</Original>
@@ -48,6 +53,7 @@
 			<German>Automatisierter Externer Defibrillator (leer)</German>
 			<Chinese>自動體外除顫器（耗盡）</Chinese>
 			<Chinesesimp>自动体外除颤器 （耗尽）</Chinesesimp>
+			<Polish>Automatyczny Zewnętrzny Defibrylator (wyładowany)</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AEDSTATION_DISPLAYNAME">
 			<Original>Manual External Defibrillator</Original>
@@ -56,6 +62,7 @@
 			<German>Manueller Externer Defibrillator</German>
 			<Chinese>手动体外除颤器</Chinese>
 			<Chinesesimp>手動體外除顫器</Chinesesimp>
+			<Polish>Manualny Zewnętrzny Defibrylator</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_DESCRIPTION">
 			<Original>Use to resuscitate player</Original>
@@ -64,6 +71,7 @@
 			<German>Stellt Puls wieder her</German>
             <Chinese>用來甦醒玩家</Chinese>
 			<Chinesesimp>用来苏醒玩家</Chinesesimp>
+			<Polish>Użyj do reanimacji</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_ACTION">
 			<Original>Use Defibrillator</Original>
@@ -72,6 +80,7 @@
 			<German>Benutze Defibrillator</German>
             <Chinese>使用除顫器</Chinese>
 			<Chinesesimp>使用除颤器</Chinesesimp>
+			<Polish>Użyj Defibrylatora</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_STATION_ACTION">
 			<Original>Activate Defibrillator</Original>
@@ -80,6 +89,7 @@
 			<German>Aktiviere Defibrillator</German>
             <Chinese>使用除顫器</Chinese>
 			<Chinesesimp>使用除颤器</Chinesesimp>
+			<Polish>Aktywuj Defibrylator</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_STATION_HINT_ON">
 			<Original>You can use the Defibrillator during the next 12 seconds.</Original>
@@ -88,6 +98,7 @@
 			<German>Der Defibrillator kann in den nächsten 12 Sekunden eingesetzt werden.</German>
 			<Chinese>你可以在12秒後再次使用除顫器。</Chinese>
 			<Chinesesimp>你可以在12秒后再次使用除颤器。</Chinesesimp>
+			<Polish>Możesz użyć Defibrylatora w ciągu następnych 12 sekund.</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_STATION_HINT_OFF">
 			<Original>Defibrillator deactivated.</Original>
@@ -96,6 +107,7 @@
 			<German>Defibrillator deaktiviert.</German>
 			<Chinese>除顫器已停用。</Chinese>
 			<Chinesesimp>除颤器已停用。</Chinesesimp>
+			<Polish>Defibrylator deaktywowany.</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_PROGRESS">
 			<Original>Using the defibrillator...</Original>
@@ -104,6 +116,7 @@
 			<German>Setze Defibrillator ein...</German>
             <Chinese>使用除顫器中...</Chinese>
 			<Chinesesimp>使用除颤器中...</Chinesesimp>
+			<Polish>Używanie Defibrylatora...</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_AED_COMPLETED">
 			<Original>%1 used the Defibrillator and stabilized the patient</Original>
@@ -112,6 +125,7 @@
             <German>%1 hat den Patienten mit Defibrillator stabilisiert</German>
             <Chinese>%1已使用除顫器並穩定了傷患</Chinese>
 			<Chinesesimp>%1已使用除颤器并稳定了伤患</Chinesesimp>
+			<Polish>%1 użył Defibrylatora i ustabilizował pacjenta</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_ENABLE">
 			<Original>Enable ADV - ACE CPR</Original>
@@ -120,6 +134,7 @@
             <German>ADV - ACE CPR aktivieren</German>
             <Chinese>開啟ADV - ACE CPR</Chinese>
 			<Chinesesimp>开启ADV - ACE CPR</Chinesesimp>
+			<Polish>Włącz ADV - ACE CPR</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_ADDTIME">
 			<Original>Seconds added to revive timer (+/-3 seconds)</Original>
@@ -127,6 +142,7 @@
             <German>Hinzugefügte Revive-Zeit (+/-3 Sekunden)</German>
             <Chinese>執行完CPR後所增加的復甦秒數(+/-3秒)</Chinese>
 			<Chinesesimp>执行完CPR后所增加的复苏秒数(+/-3秒)</Chinesesimp>
+			<Polish>Sekundy dodawane do czasu wskrzeszania (+/- 3 sekundy)</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_MAXTIME">
 			<Original>Maximum time for successful CPR</Original>
@@ -135,6 +151,7 @@
             <German>Maximale Zeit für erfolgreiche CPR</German>
             <Chinese>多少時間內可執行成功的CPR</Chinese>
 			<Chinesesimp>多少时间内可执行成功的CPR</Chinesesimp>
+			<Polish>Maksymalny czas dla pomyślnego RKO</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_2">
 			<Original>CPR-chance for ACE doctors</Original>
@@ -143,6 +160,7 @@
             <German>CPR-Wahrscheinlichkeit für ACE-Doctors</German>
             <Chinese>CPR成功機率 - ACE醫護兵</Chinese>
 			<Chinesesimp>CPR成功机率 - ACE医护兵</Chinesesimp>
+			<Polish>Szansa-RKO dla Lekarzy ACE</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_1">
 			<Original>CPR-chance for ACE medics</Original>
@@ -151,6 +169,7 @@
             <German>CPR-Wahrscheinlichkeit für ACE-Medics</German>
             <Chinese>CPR成功機率 - ACE醫護兵</Chinese>
 			<Chinesesimp>CPR成功机率 - ACE医护兵</Chinesesimp>
+			<Polish>Szansa-RKO dla Medyków ACE</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_0">
 			<Original>CPR-chance for non-medics</Original>
@@ -159,6 +178,7 @@
             <German>CPR-Wahrscheinlichkeit für Nicht-Medics</German>
             <Chinese>CPR成功機率 - ACE一般兵</Chinese>
 			<Chinesesimp>CPR成功机率 - ACE一般兵</Chinesesimp>
+			<Polish>Szansa-RKO dla nie-medyków</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_CHANCE_AED">
 			<Original>Probability of success for AED usage</Original>
@@ -167,6 +187,7 @@
             <German>Erfolgswahrscheinlichkeit für Defibrillatoren</German>
             <Chinese>AED成功機率</Chinese>
 			<Chinesesimp>AED成功机率</Chinesesimp>
+			<Polish>Szansa powodzenia przy wykorzystaniu AED</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_LOCATION_AED">
 			<Original>Locations AED</Original>
@@ -175,6 +196,7 @@
             <German>Orte für AED</German>
             <Chinese>AED使用場合</Chinese>
 			<Chinesesimp>AED使用场合</Chinesesimp>
+			<Polish>Miejsca dla AED</Polish>
         </Key>
         <Key ID="STR_ADV_ACECPR_SETTING_LOCATION_AED_DESCRIPTION">
 			<Original>Where can the AED be used?</Original>
@@ -183,6 +205,7 @@
             <German>Wo kann der AED verwendet werden?</German>
             <Chinese>哪裡可以使用AED?</Chinese>
 			<Chinesesimp>哪里可以使用AED?</Chinesesimp>
+			<Polish>Gdzie można wykorzystać AED?</Polish>
         </Key>
 		<Key ID="STR_ADV_ACECPR_SETTING_STATION">
 			<Original>Stationary AED objects</Original>
@@ -191,6 +214,7 @@
 			<German>Stationäre AED-Objekte</German>
 			<Chinese>固定式AED物件</Chinese>
 			<Chinesesimp>固定式AED物件</Chinesesimp>
+			<Polish>Statyczne obiekty AED</Polish>
 		</Key>
 		<Key ID="STR_ADV_ACECPR_SETTING_STATION_DESCRIPTION">
 			<Original>Which objects can be used as a stationary AED (seperate by comma)?</Original>
@@ -199,6 +223,7 @@
 			<German>Welche Objekte können als stationärer AED eingesetzt werden (Aufzählung mit Komma)?</German>
 			<Chinese>那些物件可以被當作是固定式AED(使用逗號做區隔)?</Chinese>
 			<Chinesesimp>那些物件可以被当作是固定式AED(使用逗号做区隔)?</Chinesesimp>
+			<Polish>Które obiekty mogą być wykorzystane jako statyczne AED (rozdzielone przecinkiem)?</Polish>
 		</Key>
 		<Key ID="STR_ADV_ACECPR_CHECKPULSE_HINT">
 			<Original>You need to use CPR or AED to resuscitate.</Original>
@@ -207,6 +232,7 @@
 			<German>Es muss HLW oder AED benutzt werden.</German>
 			<Chinese>您需要使用CPR或AED进行复苏.</Chinese>
 			<Chinesesimp>您需要使用CPR或AED進行複蘇.</Chinesesimp>
+			<Polish>Musisz wykonać RKO lub użyć AED aby reanimować.</Polish>
 		</Key>
 		<Key ID="STR_ADV_ACECPR_SETTING_AED_DEPLETED">
 			<Original>Your AED's battery is depleted.</Original>
@@ -215,6 +241,7 @@
 			<German>AED-Batterie ist leer.</German>
 			<Chinese>你的AED電池耗盡了。</Chinese>
 			<Chinesesimp>你的AED电池耗尽了。</Chinesesimp>
+			<Polish>Bateria twojego AED jest wyładowana.</Polish>
 		</Key>
 		</Package>
 </Project>
