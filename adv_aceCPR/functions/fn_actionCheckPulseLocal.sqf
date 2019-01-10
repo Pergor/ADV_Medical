@@ -64,6 +64,6 @@ if (_inRevive) then {
 //END OF EDIT
 
 if (_logOutPut != "") then {
-    [_unit,"activity", localize "STR_ACE_Medical_Check_Pulse_Log",[[_caller] call ace_common_fnc_getName,_logOutPut]] call ace_medical_fnc_addToLog;
-    [_unit,"quick_view", localize "STR_ACE_Medical_Check_Pulse_Log",[[_caller] call ace_common_fnc_getName,_logOutPut]] call ace_medical_fnc_addToLog;
+    [_unit,"activity", "STR_ACE_Medical_Check_Pulse_Log",[[_caller] call ace_common_fnc_getName,_logOutPut]] call ace_medical_fnc_addToLog;
+    [_unit,"quick_view", "STR_ACE_Medical_Check_Pulse_Log",[[_caller] call ace_common_fnc_getName,_logOutPut]] call ace_medical_fnc_addToLog;
 };
