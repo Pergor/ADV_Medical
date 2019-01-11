@@ -45,8 +45,16 @@ adv_aceCPR_aed_stationAction = [
 if ( hasInterface && _useOwnObject ) then {
 	adv_aceCPR_EVH_aed_station = player addEventHandler ["Put", {
 		params ["_unit", "_container", "_item"];
-		if (typeOf _container == "GroundWeaponHolder" && _item == "adv_aceCPR_AED") then {
+		if (typeOf _container == "GroundWeaponHolder" && _item == "adv_aceCPR_AED") exitWith {
+			[_container,0,["ACE_MainActions","adv_aceCPR_AED_stationary"]] call ace_interact_menu_fnc_removeActionFromObject;
+			
 			[_container , 0, ["ACE_MainActions"],adv_aceCPR_aed_stationAction] call ace_interact_menu_fnc_addActionToObject;
+			_container addEventHandler ["ContainerClosed", {
+				params ["_container", "_unit"];
+				if ( {_x == "adv_aceCPR_AED"} count (itemCargo _container) isEqualTo 0 ) exitWith {
+					[_container,0,["ACE_MainActions","adv_aceCPR_AED_stationary"]] call ace_interact_menu_fnc_removeActionFromObject;
+				};
+			}];
 		};
 	}];
 };
