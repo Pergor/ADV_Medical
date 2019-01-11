@@ -8,6 +8,7 @@
             <German>Alu-Polsterschiene</German>
             <Chinese>軟鋁固定板</Chinese>
 			<Chinesesimp>软铝固定板</Chinesesimp>
+            <Spanish>Tablilla SAM</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_DISPLAYNAME_USED">
 			<Original>SAM splint (used)</Original>
@@ -16,6 +17,7 @@
             <German>Alu-Polsterschiene (benutzt)</German>
             <Chinese>軟鋁固定板(已使用)</Chinese>
 			<Chinesesimp>软铝固定板(已使用)</Chinesesimp>
+            <Spanish>Tablilla SAM (usada)</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_DESCRIPTION">
 			<Original>Use to splint damaged limb</Original>
@@ -24,6 +26,7 @@
             <German>Zum Schienen verletzter Gliedmaßen</German>
             <Chinese>使用固定板修復受損的肢體</Chinese>
 			<Chinesesimp>使用固定板修复受损的肢体</Chinesesimp>
+            <Spanish>Usar para entablillar un miembro dañado</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_APPLIED">
 			<Original>%1 applied splint to %3</Original>
@@ -32,6 +35,8 @@
 			<German>%1 hat %3 geschient</German>
             <Chinese>%1已對%3使用固定板</Chinese>
 			<Chinesesimp>%1已对%3使用固定板</Chinesesimp>
+            <Spanish>%1 aplicó una tablilla a %3</Spanish>
+            <Spanish></Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ACTION">
 			<Original>Apply SAM splint</Original>
@@ -40,6 +45,7 @@
             <German>Alu-Polsterschiene</German>
             <Chinese>使用軟鋁固定板</Chinese>
 			<Chinesesimp>使用软铝固定板</Chinesesimp>
+            <Spanish>Aplicar tablilla SAM</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_PROGRESS">
 			<Original>Applying splint...</Original>
@@ -48,6 +54,7 @@
             <German>Gliedmaß wird geschient...</German>
             <Chinese>使用固定板中...</Chinese>
 			<Chinesesimp>使用固定板中...</Chinesesimp>
+            <Spanish>Aplicando tablilla...</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ARM">
 			<Original>arm</Original>
@@ -56,6 +63,7 @@
             <German>Arm</German>
             <Chinese>手臂</Chinese>
 			<Chinesesimp>手臂</Chinesesimp>
+            <Spanish>brazo</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ARMS">
 			<Original>arms</Original>
@@ -64,6 +72,7 @@
             <German>Armen</German>
             <Chinese>武器</Chinese>
 			<Chinesesimp>武器</Chinesesimp>
+            <Spanish>brazos</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_LEG">
 			<Original>leg</Original>
@@ -72,6 +81,7 @@
             <German>Bein</German>
             <Chinese>腿部</Chinese>
 			<Chinesesimp>腿部</Chinesesimp>
+            <Spanish>pierna</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_LEGS">
 			<Original>legs</Original>
@@ -80,6 +90,7 @@
             <German>Beinen</German>
             <Chinese>腿</Chinese>
 			<Chinesesimp>腿</Chinesesimp>
+            <Spanish>piernas</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN">
 			<Original>Splint has come undone</Original>
@@ -88,6 +99,7 @@
             <German>Polsterschiene hat sich gelöst</German>
             <Chinese>固定板已脫落</Chinese>
 			<Chinesesimp>固定板已脱落</Chinesesimp>
+            <Spanish>La tablilla se ha desarmado</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT">
 			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
@@ -96,6 +108,7 @@
             <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann erneut verwendet werden.</German>
             <Chinese>你的其中一個固定板已脫落!你仍可重複使用該固定板。</Chinese>
 			<Chinesesimp>你的其中一个固定板已脱落!你仍可重复使用该固定板。</Chinesesimp>
+            <Spanish>¡Una de tus tablillas SAM se ha desarmado! La tablilla se ha perdido.</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT_LOST">
 			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
@@ -104,6 +117,7 @@
             <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann nicht erneut verwendet werden.</German>
             <Chinese>你的其中一個固定板已脫落!該固定板已損毀。</Chinese>
 			<Chinesesimp>你的其中一个固定板已脱落!该固定板已损毁。</Chinesesimp>
+            <Spanish>¡Una de tus tablillas SAM se ha desarmado! La tablilla se ha perdido.</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_ENABLE">
 			<Original>Enable ADV - ACE Splint</Original>
@@ -112,6 +126,7 @@
             <German>ADV - ACE Splint aktivieren</German>
 			<Chinese>開啟ADV - ACE固定板</Chinese>
 			<Chinesesimp>开启ADV - ACE固定板</Chinesesimp>
+            <Spanish>Activar ADV - ACE Splint</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE_MED">
 			<Original>Probability for splints to fall off for medics</Original>
@@ -120,6 +135,7 @@
             <German>Wahrscheinlichkeit für das Abfallen einer Schiene (Sanitäter)</German>
 			<Chinese>固定板脫落的機率 (护理人员)</Chinese>
 			<Chinesesimp>固定板脱落的机率 (護理人員)</Chinesesimp>
+            <Spanish>Probabilidad de que la tablilla se caiga para médicos</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE_REG">
 			<Original>Probability for splints to fall off</Original>
@@ -128,6 +144,7 @@
             <German>Wahrscheinlichkeit für das Abfallen einer Schiene</German>
 			<Chinese>固定板脫落的機率</Chinese>
 			<Chinesesimp>固定板脱落的机率</Chinesesimp>
+            <Spanish>Probabilidad de que la tablilla se caiga</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_TIME">
 			<Original>Time before a splint can fall off (+/-30 seconds)</Original>
@@ -136,6 +153,7 @@
             <German>Dauer bevor eine Schiene abfallen kann (+/-30 Sekunden)</German>
 			<Chinese>多少時間後固定板可能會脫落(+/-30秒)</Chinese>
 			<Chinesesimp>多少时间后固定板可能会脱落(+/-30秒)</Chinesesimp>
+            <Spanish>Tiempo antes de que una tablilla se caiga (+/-30 segundos)</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_REUSE">
 			<Original>Probability for reusability of splints</Original>
@@ -144,6 +162,7 @@
             <German>Wahrscheinlichkeit für die Wiederverwendbarkeit einer Schiene</German>
 			<Chinese>固定板可重複使用的機率</Chinese>
 			<Chinesesimp>固定板可重复使用的机率</Chinesesimp>
+            <Spanish>Probabilidad para reusar tablillas</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_MESSAGE">
 			<Original>Patient %1 %2 &lt;br/&gt; %1 %3</Original>
@@ -152,6 +171,7 @@
             <German>Patient %1 %2 &lt;br/&gt; %1 %3</German>
 			<Chinese>病人%1 %2 &lt;br/&gt; %1 %3</Chinese>
 			<Chinesesimp>病人%1 %2 &lt;br/&gt; %1 %3</Chinesesimp>
+            <Spanish>Paciente %1 %2 &lt;br/&gt; %1 %3</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_HIT">
 			<Original>has been wounded and needs a SAM-Splint on his %1</Original>
@@ -160,6 +180,7 @@
             <German>wurde verletzt und benötigt eine Alu-Polsterschiene an seinen %1</German>
 			<Chinese>受伤了，需要夹板: %1</Chinese>
 			<Chinesesimp>受傷了，需要夾板: %1</Chinesesimp>
+            <Spanish>Se ha herido y necesita una tablilla SAM en su %1</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_NOTHIT">
 			<Original>needs no Splints on his %1</Original>
@@ -168,6 +189,7 @@
             <German>benötigt keine Schienung an seinen %1</German>
 			<Chinese>不需要他的夾板: %1</Chinese>
 			<Chinesesimp>不需要他的夾板: %1</Chinesesimp>
+            <Spanish>No necesita tablillas en su %1</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ACTION_CHECKLIMBS">
 			<Original>Limb analysis</Original>
@@ -176,6 +198,7 @@
             <German>Gliedmaßen-Check</German>
 			<Chinese>肢体分析</Chinese>
 			<Chinesesimp>肢體分析</Chinesesimp>
+            <Spanish>Análisis de miembros</Spanish>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_PROGRESS">
 			<Original>Checking limb...</Original>
@@ -184,6 +207,7 @@
             <German>Überprüfe Gliedmaße...</German>
 			<Chinese>檢查肢體...</Chinese>
 			<Chinesesimp>檢查肢體...</Chinesesimp>
+            <Spanish>Comprobando miembro...</Spanish>
         </Key>
 		</Package>
 </Project>
