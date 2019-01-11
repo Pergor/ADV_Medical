@@ -9,13 +9,13 @@
         weapons[] = {
 			"adv_aceCPR_AED"
 		};
-        requiredVersion = 1.80;
+        requiredVersion = 1.88;
         requiredAddons[] = {
 			"ace_medical"
 			,"cba_settings"
 		};
-		version = "1.5.4";
-		versionStr = "1.5.4";
+		version = "1.5.5";
+		versionStr = "1.5.5";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
@@ -136,13 +136,14 @@ class cfgVehicles {
             MACRO_ADDITEM(adv_aceCPR_AED,1);
         };
 	};
+	/*
 	class adv_aceCPR_AEDStation: Item_Base_F {
-        scope = 0;
-        scopeCurator = 0;
+        scope = 2;
+        scopeCurator = 2;
         displayName = "$STR_ADV_ACECPR_AEDSTATION_DISPLAYNAME";
         author = "[SeL] Belbo";
         vehicleClass = "Items";
-		//model = "\adv_aceCPR\ui\defib.p3d";
+		model = "\adv_aceCPR\ui\defi.p3d";
 		MACRO_AED_STATION
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0,1,1};
@@ -150,6 +151,7 @@ class cfgVehicles {
         ace_cargo_size = 1;
 		ace_cargo_canLoad = 1;
 	};
+	*/
 	
 	//ace_medical_actions:
 	class Man;
