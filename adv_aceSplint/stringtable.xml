@@ -1,189 +1,189 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="adv">
     <Package name="aceSplint">
         <Key ID="STR_ADV_ACESPLINT_DISPLAYNAME">
-			<Original>SAM splint</Original>
+            <Original>SAM splint</Original>
             <English>SAM splint</English>
-			<French>Attelle</French>
+            <French>Attelle</French>
             <German>Alu-Polsterschiene</German>
             <Chinese>軟鋁固定板</Chinese>
-			<Chinesesimp>软铝固定板</Chinesesimp>
+            <Chinesesimp>软铝固定板</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_DISPLAYNAME_USED">
-			<Original>SAM splint (used)</Original>
+            <Original>SAM splint (used)</Original>
             <English>SAM splint (used)</English>
-			<French>Attelle (déjà utilisée)</French>
+            <French>Attelle (déjà utilisée)</French>
             <German>Alu-Polsterschiene (benutzt)</German>
             <Chinese>軟鋁固定板(已使用)</Chinese>
-			<Chinesesimp>软铝固定板(已使用)</Chinesesimp>
+            <Chinesesimp>软铝固定板(已使用)</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_DESCRIPTION">
-			<Original>Use to splint damaged limb</Original>
+            <Original>Use to splint damaged limb</Original>
             <English>Use to splint damaged limb</English>
-			<French>Utiliser pour immobiliser un membre fracturé</French>
+            <French>Utiliser pour immobiliser un membre fracturé</French>
             <German>Zum Schienen verletzter Gliedmaßen</German>
             <Chinese>使用固定板修復受損的肢體</Chinese>
-			<Chinesesimp>使用固定板修复受损的肢体</Chinesesimp>
+            <Chinesesimp>使用固定板修复受损的肢体</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_APPLIED">
-			<Original>%1 applied splint to %3</Original>
-			<English>%1 applied splint to %3</English>
-			<French>%1 pose une attelle à %3</French>
-			<German>%1 hat %3 geschient</German>
+            <Original>%1 applied splint to %3</Original>
+            <English>%1 applied splint to %3</English>
+            <French>%1 pose une attelle à %3</French>
+            <German>%1 hat %3 geschient</German>
             <Chinese>%1已對%3使用固定板</Chinese>
-			<Chinesesimp>%1已对%3使用固定板</Chinesesimp>
+            <Chinesesimp>%1已对%3使用固定板</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ACTION">
-			<Original>Apply SAM splint</Original>
+            <Original>Apply SAM splint</Original>
             <English>Apply SAM splint</English>
-			<French>Poser une attelle</French>
+            <French>Poser une attelle</French>
             <German>Alu-Polsterschiene</German>
             <Chinese>使用軟鋁固定板</Chinese>
-			<Chinesesimp>使用软铝固定板</Chinesesimp>
+            <Chinesesimp>使用软铝固定板</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_PROGRESS">
-			<Original>Applying splint...</Original>
+            <Original>Applying splint...</Original>
             <English>Applying splint...</English>
-			<French>Pose de l'attelle...</French>
+            <French>Pose de l'attelle...</French>
             <German>Gliedmaß wird geschient...</German>
             <Chinese>使用固定板中...</Chinese>
-			<Chinesesimp>使用固定板中...</Chinesesimp>
+            <Chinesesimp>使用固定板中...</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ARM">
-			<Original>arm</Original>
+            <Original>arm</Original>
             <English>arm</English>
-			<French>bras</French>
+            <French>bras</French>
             <German>Arm</German>
             <Chinese>手臂</Chinese>
-			<Chinesesimp>手臂</Chinesesimp>
+            <Chinesesimp>手臂</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ARMS">
-			<Original>arms</Original>
+            <Original>arms</Original>
             <English>arms</English>
-			<French>bras</French>
+            <French>bras</French>
             <German>Armen</German>
             <Chinese>武器</Chinese>
-			<Chinesesimp>武器</Chinesesimp>
+            <Chinesesimp>武器</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_LEG">
-			<Original>leg</Original>
+            <Original>leg</Original>
             <English>leg</English>
-			<French>jambe</French>
+            <French>jambe</French>
             <German>Bein</German>
             <Chinese>腿部</Chinese>
-			<Chinesesimp>腿部</Chinesesimp>
+            <Chinesesimp>腿部</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_LEGS">
-			<Original>legs</Original>
+            <Original>legs</Original>
             <English>legs</English>
-			<French>jambes</French>
+            <French>jambes</French>
             <German>Beinen</German>
             <Chinese>腿</Chinese>
-			<Chinesesimp>腿</Chinesesimp>
+            <Chinesesimp>腿</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN">
-			<Original>Splint has come undone</Original>
+            <Original>Splint has come undone</Original>
             <English>Splint has come undone</English>
-			<French>Une attelle se délier</French>
+            <French>Une attelle se délier</French>
             <German>Polsterschiene hat sich gelöst</German>
             <Chinese>固定板已脫落</Chinese>
-			<Chinesesimp>固定板已脱落</Chinesesimp>
+            <Chinesesimp>固定板已脱落</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT">
-			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
+            <Original>One of your SAM splints has come undone! The splint is lost.</Original>
             <English>One of your SAM splints has come undone! You can reuse the splint.</English>
-			<French>T'attelle se délier! Tu peus réemployer l'attelle.</French>
+            <French>T'attelle se délier! Tu peus réemployer l'attelle.</French>
             <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann erneut verwendet werden.</German>
             <Chinese>你的其中一個固定板已脫落!你仍可重複使用該固定板。</Chinese>
-			<Chinesesimp>你的其中一个固定板已脱落!你仍可重复使用该固定板。</Chinesesimp>
+            <Chinesesimp>你的其中一个固定板已脱落!你仍可重复使用该固定板。</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT_LOST">
-			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
+            <Original>One of your SAM splints has come undone! The splint is lost.</Original>
             <English>One of your SAM splints has come undone! The splint is lost.</English>
-			<French>T'attelle se délier! Tu perds l'attelle.</French>
+            <French>T'attelle se délier! Tu perds l'attelle.</French>
             <German>Deine Polsterschiene hat sich gelöst! Die Polsterschiene kann nicht erneut verwendet werden.</German>
             <Chinese>你的其中一個固定板已脫落!該固定板已損毀。</Chinese>
-			<Chinesesimp>你的其中一个固定板已脱落!该固定板已损毁。</Chinesesimp>
+            <Chinesesimp>你的其中一个固定板已脱落!该固定板已损毁。</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_ENABLE">
-			<Original>Enable ADV - ACE Splint</Original>
+            <Original>Enable ADV - ACE Splint</Original>
             <English>Enable ADV - ACE Splint</English>
-			<French>Activer ADV - ACE Splint</French>
+            <French>Activer ADV - ACE Splint</French>
             <German>ADV - ACE Splint aktivieren</German>
-			<Chinese>開啟ADV - ACE固定板</Chinese>
-			<Chinesesimp>开启ADV - ACE固定板</Chinesesimp>
+            <Chinese>開啟ADV - ACE固定板</Chinese>
+            <Chinesesimp>开启ADV - ACE固定板</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE_MED">
-			<Original>Probability for splints to fall off for medics</Original>
+            <Original>Probability for splints to fall off for medics</Original>
             <English>Probability for splints to fall off for medics</English>
-			<French>Probabilité du desserrage pour d'infirmiers</French>
+            <French>Probabilité du desserrage pour d'infirmiers</French>
             <German>Wahrscheinlichkeit für das Abfallen einer Schiene (Sanitäter)</German>
-			<Chinese>固定板脫落的機率 (护理人员)</Chinese>
-			<Chinesesimp>固定板脱落的机率 (護理人員)</Chinesesimp>
+            <Chinese>固定板脫落的機率 (护理人员)</Chinese>
+            <Chinesesimp>固定板脱落的机率 (護理人員)</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE_REG">
-			<Original>Probability for splints to fall off</Original>
+            <Original>Probability for splints to fall off</Original>
             <English>Probability for splints to fall off</English>
-			<French>Probabilité du desserrage</French>
+            <French>Probabilité du desserrage</French>
             <German>Wahrscheinlichkeit für das Abfallen einer Schiene</German>
-			<Chinese>固定板脫落的機率</Chinese>
-			<Chinesesimp>固定板脱落的机率</Chinesesimp>
+            <Chinese>固定板脫落的機率</Chinese>
+            <Chinesesimp>固定板脱落的机率</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_TIME">
-			<Original>Time before a splint can fall off (+/-30 seconds)</Original>
+            <Original>Time before a splint can fall off (+/-30 seconds)</Original>
             <English>Time before a splint can fall off (+/-30 seconds)</English>
-			<French>Durée avant une attelle peut se délier (+/-30 secondes)</French>
+            <French>Durée avant une attelle peut se délier (+/-30 secondes)</French>
             <German>Dauer bevor eine Schiene abfallen kann (+/-30 Sekunden)</German>
-			<Chinese>多少時間後固定板可能會脫落(+/-30秒)</Chinese>
-			<Chinesesimp>多少时间后固定板可能会脱落(+/-30秒)</Chinesesimp>
+            <Chinese>多少時間後固定板可能會脫落(+/-30秒)</Chinese>
+            <Chinesesimp>多少时间后固定板可能会脱落(+/-30秒)</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_REUSE">
-			<Original>Probability for reusability of splints</Original>
+            <Original>Probability for reusability of splints</Original>
             <English>Probability for reusability of splints</English>
-			<French>Probabilité pour la réutilisabilité de l'attelles</French>
+            <French>Probabilité pour la réutilisabilité de l'attelles</French>
             <German>Wahrscheinlichkeit für die Wiederverwendbarkeit einer Schiene</German>
-			<Chinese>固定板可重複使用的機率</Chinese>
-			<Chinesesimp>固定板可重复使用的机率</Chinesesimp>
+            <Chinese>固定板可重複使用的機率</Chinese>
+            <Chinesesimp>固定板可重复使用的机率</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_MESSAGE">
-			<Original>Patient %1 %2 &lt;br/&gt; %1 %3</Original>
+            <Original>Patient %1 %2 &lt;br/&gt; %1 %3</Original>
             <English>Patient %1 %2 &lt;br/&gt; %1 %3</English>
-			<French>Patient %1 %2 &lt;br/&gt; %1 %3</French>
+            <French>Patient %1 %2 &lt;br/&gt; %1 %3</French>
             <German>Patient %1 %2 &lt;br/&gt; %1 %3</German>
-			<Chinese>病人%1 %2 &lt;br/&gt; %1 %3</Chinese>
-			<Chinesesimp>病人%1 %2 &lt;br/&gt; %1 %3</Chinesesimp>
+            <Chinese>病人%1 %2 &lt;br/&gt; %1 %3</Chinese>
+            <Chinesesimp>病人%1 %2 &lt;br/&gt; %1 %3</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_HIT">
-			<Original>has been wounded and needs a SAM-Splint on his %1</Original>
+            <Original>has been wounded and needs a SAM-Splint on his %1</Original>
             <English>has been wounded and needs a SAM-Splint on his %1</English>
-			<French>a été blessé et a besoin d'attelles au %1</French>
+            <French>a été blessé et a besoin d'attelles au %1</French>
             <German>wurde verletzt und benötigt eine Alu-Polsterschiene an seinen %1</German>
-			<Chinese>受伤了，需要夹板: %1</Chinese>
-			<Chinesesimp>受傷了，需要夾板: %1</Chinesesimp>
+            <Chinese>受伤了，需要夹板: %1</Chinese>
+            <Chinesesimp>受傷了，需要夾板: %1</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_NOTHIT">
-			<Original>needs no Splints on his %1</Original>
+            <Original>needs no Splints on his %1</Original>
             <English>needs no Splints on his %1</English>
-			<French>n'a pas besoin d'attelles sur ses %1</French>
+            <French>n'a pas besoin d'attelles sur ses %1</French>
             <German>benötigt keine Schienung an seinen %1</German>
-			<Chinese>不需要他的夾板: %1</Chinese>
-			<Chinesesimp>不需要他的夾板: %1</Chinesesimp>
+            <Chinese>不需要他的夾板: %1</Chinese>
+            <Chinesesimp>不需要他的夾板: %1</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ACTION_CHECKLIMBS">
-			<Original>Limb analysis</Original>
+            <Original>Limb analysis</Original>
             <English>Limb analysis</English>
-			<French>Analyse des membres</French>
+            <French>Analyse des membres</French>
             <German>Gliedmaßen-Check</German>
-			<Chinese>肢体分析</Chinese>
-			<Chinesesimp>肢體分析</Chinesesimp>
+            <Chinese>肢体分析</Chinese>
+            <Chinesesimp>肢體分析</Chinesesimp>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_PROGRESS">
-			<Original>Checking limb...</Original>
+            <Original>Checking limb...</Original>
             <English>Checking limb...</English>
-			<French>Vérifie le membre...</French>
+            <French>Vérifie le membre...</French>
             <German>Überprüfe Gliedmaße...</German>
-			<Chinese>檢查肢體...</Chinese>
-			<Chinesesimp>檢查肢體...</Chinesesimp>
+            <Chinese>檢查肢體...</Chinese>
+            <Chinesesimp>檢查肢體...</Chinesesimp>
         </Key>
-		</Package>
+    </Package>
 </Project>
