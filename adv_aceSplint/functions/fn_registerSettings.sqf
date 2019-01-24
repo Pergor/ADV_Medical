@@ -14,6 +14,16 @@ ADV-aceSplint - by Belbo
 	,true
 ] call CBA_Settings_fnc_init;
 
+//Patient Condition
+[
+	"adv_aceSplint_patientCondition"
+	,"LIST"
+	,localize "STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION"
+	,CBA_SETTINGS_CAT
+	,[[0,1],["STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION_NO","STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION_YES"],1]
+	,true
+] call CBA_Settings_fnc_init;
+
 //Reopen Chance (MEDICS)
 [
 	"adv_aceSplint_reopenChance_medic"

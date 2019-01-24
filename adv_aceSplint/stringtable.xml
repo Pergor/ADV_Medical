@@ -231,5 +231,20 @@
 			<Polish>Sprawdzanie kończyny...</Polish>
             <Spanish>Comprobando miembro...</Spanish>
         </Key>
+        <Key ID="STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION">
+			<Original>Patient's condition to apply splint</Original>
+            <English>Patient's condition to apply splint</English>
+            <German>Patientenbedingung für Splinte</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION_NO">
+			<Original>Patient can still be wounded</Original>
+            <English>Patient can still be wounded</English>
+            <German>Patient kann verletzt sein</German>
+        </Key>
+        <Key ID="STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION_YES">
+			<Original>Wounds have to be bandaged</Original>
+            <English>Wounds have to be bandaged</English>
+            <German>Wunden müssen versorgt sein</German>
+        </Key>
 	</Package>
 </Project>

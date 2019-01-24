@@ -15,8 +15,8 @@
 			"ace_medical"
 			,"cba_settings"
 		};
-		version = "1.1.5";
-		versionStr = "1.1.5";
+		version = "1.1.6";
+		versionStr = "1.1.6";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
@@ -145,7 +145,7 @@ class ACE_Medical_Actions {
 			allowedSelections[] = {"hand_l", "hand_r", "leg_l", "leg_r"};
 			condition = "[_this select 1, _this select 2] call adv_aceSplint_fnc_canSplint";
 			allowSelfTreatment = 1;
-			patientStateCondition = 1;
+			patientStateCondition = "adv_aceSplint_patientCondition";
 			treatmentTime = 8;
 			requiredMedic = 0;
 			itemConsumed = 1;
@@ -162,7 +162,7 @@ class ACE_Medical_Actions {
             callbackSuccess = "adv_aceSplint_fnc_checkLimbs";
             callbackFailure = "";
             callbackProgress = "";
-			condition = "missionNamespace getVariable ['adv_aceSplint_enable',false] && missionNamespace getVariable ['ace_medical_healHitPointAfterAdvBandage',true]";
+			condition = "missionNamespace getVariable ['adv_aceSplint_enable',false] && !(missionNamespace getVariable ['ace_medical_healHitPointAfterAdvBandage',true])";
             itemConsumed = 0;
             litter[] = {};
 		};
