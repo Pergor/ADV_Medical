@@ -19,8 +19,8 @@ class CfgPatches
 			,"cba_common"
 			,"cba_xeh"
 		};
-		version = "1.0.3";
-		versionStr = "1.0.3";
+		version = "1.0.4";
+		versionStr = "1.0.4";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
