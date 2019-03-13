@@ -10,6 +10,7 @@
 			<Chinesesimp>软铝固定板</Chinesesimp>
 			<Polish>Szyna</Polish>
             <Spanish>Tablilla SAM</Spanish>
+			<Japanese>添え木</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_DISPLAYNAME_USED">
 			<Original>SAM splint (used)</Original>
@@ -20,6 +21,7 @@
 			<Chinesesimp>软铝固定板(已使用)</Chinesesimp>
 			<Polish>Szyna (zużyta)</Polish>
             <Spanish>Tablilla SAM (usada)</Spanish>
+			<Japanese>添え木（使用済み）</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_DESCRIPTION">
 			<Original>Use to splint damaged limb</Original>
@@ -30,6 +32,7 @@
 			<Chinesesimp>使用固定板修复受损的肢体</Chinesesimp>
 			<Polish>Użyj aby unieruchomić złamaną kończynę</Polish>
             <Spanish>Usar para entablillar un miembro dañado</Spanish>
+			<Japanese>損傷した手足に添え木を使用する</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_APPLIED">
 			<Original>%1 applied splint to %3</Original>
@@ -40,6 +43,7 @@
 			<Chinesesimp>%1已对%3使用固定板</Chinesesimp>
 			<Polish>%1 zaaplikowano na %3</Polish>
             <Spanish>%1 aplicó una tablilla a %3</Spanish>
+			<Japanese>%1 が %3 に添え木を使用した</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ACTION">
 			<Original>Apply SAM splint</Original>
@@ -50,6 +54,7 @@
 			<Chinesesimp>使用软铝固定板</Chinesesimp>
 			<Polish>Załóż szynę</Polish>
             <Spanish>Aplicar tablilla SAM</Spanish>
+			<Japanese>添え木を使用する</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_PROGRESS">
 			<Original>Applying splint...</Original>
@@ -60,6 +65,7 @@
 			<Chinesesimp>使用固定板中...</Chinesesimp>
 			<Polish>Zakładanie szyny</Polish>
             <Spanish>Aplicando tablilla...</Spanish>
+			<Japanese>添え木で固定しています…</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ARM">
 			<Original>arm</Original>
@@ -70,6 +76,7 @@
 			<Chinesesimp>手臂</Chinesesimp>
 			<Polish>ramieniu</Polish>
             <Spanish>brazo</Spanish>
+			<Japanese>腕</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ARMS">
 			<Original>arms</Original>
@@ -80,6 +87,7 @@
 			<Chinesesimp>武器</Chinesesimp>
 			<Polish>ramionach</Polish>
             <Spanish>brazos</Spanish>
+			<Japanese>両腕</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_LEG">
 			<Original>leg</Original>
@@ -90,6 +98,7 @@
 			<Chinesesimp>腿部</Chinesesimp>
 			<Polish>nodze</Polish>
             <Spanish>pierna</Spanish>
+			<Japanese>足</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_LEGS">
 			<Original>legs</Original>
@@ -100,6 +109,7 @@
 			<Chinesesimp>腿</Chinesesimp>
 			<Polish>nogach</Polish>
             <Spanish>piernas</Spanish>
+			<Japanese>両足</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN">
 			<Original>Splint has come undone</Original>
@@ -110,6 +120,7 @@
 			<Chinesesimp>固定板已脱落</Chinesesimp>
 			<Polish>Szyna się obluzowała</Polish>
             <Spanish>La tablilla se ha desarmado</Spanish>
+			<Japanese>添え木が外れました</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT">
 			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
@@ -120,6 +131,7 @@
 			<Chinesesimp>你的其中一个固定板已脱落!你仍可重复使用该固定板。</Chinesesimp>
 			<Polish>Jedna z twoich szyn się obluzowała! Można ją wykorzystać ponownie.</Polish>
             <Spanish>¡Una de tus tablillas SAM se ha desarmado! La tablilla se ha perdido.</Spanish>
+			<Japanese>添え木の1つが外れました! 添え木は無くなりました。</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_REOPEN_HINT_LOST">
 			<Original>One of your SAM splints has come undone! The splint is lost.</Original>
@@ -130,6 +142,7 @@
 			<Chinesesimp>你的其中一个固定板已脱落!该固定板已损毁。</Chinesesimp>
 			<Polish>Jedna z twoich szyn się obluzowała! Nie można jej już wykorzystać.</Polish>
             <Spanish>¡Una de tus tablillas SAM se ha desarmado! La tablilla se ha perdido.</Spanish>
+			<Japanese>添え木の1つが外れました! 添え木は無くなりました。</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_ENABLE">
 			<Original>Enable ADV - ACE Splint</Original>
@@ -140,6 +153,7 @@
 			<Chinesesimp>开启ADV - ACE固定板</Chinesesimp>
 			<Polish>Włącz ADV - ACE Splint</Polish>
             <Spanish>Activar ADV - ACE Splint</Spanish>
+			<Japanese>ADV - ACE Splintを有効にする</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE_MED">
 			<Original>Probability for splints to fall off for medics</Original>
@@ -150,6 +164,7 @@
 			<Chinesesimp>固定板脱落的机率 (護理人員)</Chinesesimp>
 			<Polish>Szansa na obluzowanie szyny przy aplikacji przez medyka</Polish>
             <Spanish>Probabilidad de que la tablilla se caiga para médicos</Spanish>
+			<Japanese>添え木が外れる可能性（衛生兵）</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_CHANCE_REG">
 			<Original>Probability for splints to fall off</Original>
@@ -160,6 +175,7 @@
 			<Chinesesimp>固定板脱落的机率</Chinesesimp>
 			<Polish>Szansa na obluzowanie szyny</Polish>
             <Spanish>Probabilidad de que la tablilla se caiga</Spanish>
+			<Japanese>添え木が外れる可能性</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_TIME">
 			<Original>Time before a splint can fall off (+/-30 seconds)</Original>
@@ -170,6 +186,7 @@
 			<Chinesesimp>多少时间后固定板可能会脱落(+/-30秒)</Chinesesimp>
 			<Polish>Czas po jakim szyna może się obluzować (+/-30 sekund)</Polish>
             <Spanish>Tiempo antes de que una tablilla se caiga (+/-30 segundos)</Spanish>
+			<Japanese>添え木が外れるまでの時間 (+/-30秒)</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_REUSE">
 			<Original>Probability for reusability of splints</Original>
@@ -180,6 +197,7 @@
 			<Chinesesimp>固定板可重复使用的机率</Chinesesimp>
 			<Polish>Szansa na to że szynę będzie się dało wykorzystać ponownie</Polish>
             <Spanish>Probabilidad para reusar tablillas</Spanish>
+			<Japanese>添え木を再使用できる確率</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_MESSAGE">
 			<Original>Patient %1 %2 &lt;br/&gt; %1 %3</Original>
@@ -190,6 +208,7 @@
 			<Chinesesimp>病人%1 %2 &lt;br/&gt; %1 %3</Chinesesimp>
 			<Polish>Pacjent %1 %2 &lt;br/&gt; %1 %3</Polish>
             <Spanish>Paciente %1 %2 &lt;br/&gt; %1 %3</Spanish>
+			<Japanese>患者 %1 %2 &lt;br/&gt; %1 %3</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_HIT">
 			<Original>has been wounded and needs a SAM-Splint on his %1</Original>
@@ -200,6 +219,7 @@
 			<Chinesesimp>受傷了，需要夾板: %1</Chinesesimp>
 			<Polish>został zraniony i potrzebuje szyny na %1</Polish>
             <Spanish>Se ha herido y necesita una tablilla SAM en su %1</Spanish>
+			<Japanese>が負傷し、%1 に添え木の使用が必要です</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_NOTHIT">
 			<Original>needs no Splints on his %1</Original>
@@ -210,6 +230,7 @@
 			<Chinesesimp>不需要他的夾板: %1</Chinesesimp>
 			<Polish>nie potrzebuje szyny na %1</Polish>
             <Spanish>No necesita tablillas en su %1</Spanish>
+			<Japanese>%1 に添え木は必要ありません</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_ACTION_CHECKLIMBS">
 			<Original>Limb analysis</Original>
@@ -220,6 +241,7 @@
 			<Chinesesimp>肢體分析</Chinesesimp>
 			<Polish>Analiza kończyn</Polish>
             <Spanish>Análisis de miembros</Spanish>
+			<Japanese>手足の骨折を確認</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_CHECKLIMBS_PROGRESS">
 			<Original>Checking limb...</Original>
@@ -230,21 +252,25 @@
 			<Chinesesimp>檢查肢體...</Chinesesimp>
 			<Polish>Sprawdzanie kończyny...</Polish>
             <Spanish>Comprobando miembro...</Spanish>
+			<Japanese>手足の骨折を確認しています...</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION">
 			<Original>Patient's condition to apply splint</Original>
             <English>Patient's condition to apply splint</English>
             <German>Patientenbedingung für Splinte</German>
+			<Japanese>添え木を使用できる患者の状態</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION_NO">
 			<Original>Patient can still be wounded</Original>
             <English>Patient can still be wounded</English>
             <German>Patient kann verletzt sein</German>
+			<Japanese>患者はまだ出血しています</Japanese>
         </Key>
         <Key ID="STR_ADV_ACESPLINT_SETTING_PATIENT_CONDITION_YES">
 			<Original>Wounds have to be bandaged</Original>
             <English>Wounds have to be bandaged</English>
             <German>Wunden müssen versorgt sein</German>
+			<Japanese>傷を包帯で巻く必要があります</Japanese>
         </Key>
 	</Package>
 </Project>
