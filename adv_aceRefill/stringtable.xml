@@ -8,6 +8,7 @@
             <Chinese>開啟醫療補充包</Chinese>
 			<Chinesesimp>开启医疗补充包</Chinesesimp>
             <Spanish>Abrir Kit de Suministros Médicos</Spanish>
+			<Japanese>医薬品補給キット</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_OPEN_FAK">
 			<Original>Open Individual First Aid Kit</Original>
@@ -16,6 +17,7 @@
             <Chinese>開啟個別急救包</Chinese>
 			<Chinesesimp>开启个别急救包</Chinesesimp>
             <Spanish>Abrir Kit Individual de Primeros Auxilios</Spanish>
+			<Japanese>個人用応急処置キット（IFAK）を開く</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME">
 			<Original>[ADV] Medical Refill Kit</Original>
@@ -24,6 +26,7 @@
             <Chinese>[ADV]醫療補充包</Chinese>
 			<Chinesesimp>[ADV]医疗补充包</Chinesesimp>
             <Spanish>[ADV] Kit de Suministros Médicos</Spanish>
+			<Japanese>[ADV] 医薬品補給キット</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME_EMPTY">
 			<Original>[ADV] Medical Refill Kit (empty)</Original>
@@ -32,6 +35,7 @@
             <Chinese>[ADV]醫療補充包(空)</Chinese>
 			<Chinesesimp>[ADV]医疗补充包(空)</Chinesesimp>
             <Spanish>[ADV] Kit de Suministros Médicos (vacío)</Spanish>
+			<Japanese>[ADV] 医薬品補給キット（空）</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME_AUTO">
 			<Original>[ADV] Medical Refill Kit (automatic)</Original>
@@ -40,6 +44,7 @@
             <Chinese>[ADV]醫療補充包(自動)</Chinese>
 			<Chinesesimp>[ADV]医疗补充包(自动)</Chinesesimp>
             <Spanish>[ADV] Kit de Suministros Médicos (automático)</Spanish>
+			<Japanese>[ADV] 医薬品補給キット （自動）</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_NAME_FAK">
 			<Original>[ADV] Individual First Aid Kit</Original>
@@ -48,6 +53,7 @@
             <Chinese>[ADV]個別急救包</Chinese>
 			<Chinesesimp>[ADV]个别急救包</Chinesesimp>
             <Spanish>[ADV] Kit Individual de Primeros Auxilios</Spanish>
+			<Japanese>[ADV] 個人用応急処置キット（IFAK）</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTION">
 			<Original>Open to refill your medical items &lt;br/&gt;- only for medics</Original>
@@ -56,6 +62,7 @@
             <Chinese>開啟來補充你的醫療物品&lt;br/&gt;- 只給醫護兵</Chinese>
 			<Chinesesimp>开启来补充你的医疗物品&lt;br/&gt;- 只给医护兵</Chinesesimp>
             <Spanish>Abrir para Reponer tu insumos médicos &lt;br/&gt;- sólo para médicos</Spanish>
+			<Japanese>開いて医薬品を補充する &lt;br/&gt;- 衛生兵専用</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTION_AUTO">
 			<Original>Will refill your medical items automatically &lt;br/&gt;- Only for medics</Original>
@@ -64,6 +71,7 @@
             <Chinese>自動補充你的醫療物品&lt;br/&gt;- 只給醫護兵</Chinese>
 			<Chinesesimp>自动补充你的医疗物品&lt;br/&gt;- 只给医护兵</Chinesesimp>
             <Spanish>Reponerás tus insumos médicos de forma automática &lt;br/&gt;- sólo para médicos</Spanish>
+			<Japanese>自動的にあなたの医薬品を補充する &lt;br/&gt;- 衛生兵専用</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTION_FAK">
 			<Original>Will refill your medical items &lt;br/&gt;- Contains medical items for one soldier</Original>
@@ -72,6 +80,7 @@
             <Chinese>將會補給你的醫療物品&lt;br/&gt;- 只給一般士兵的醫療物品</Chinese>
 			<Chinesesimp>将会补给你的医疗物品&lt;br/&gt;- 只给一般士兵的医疗物品</Chinesesimp>
             <Spanish>Reponerás tus insumos médicos &lt;br/&gt;- Contiene insumos médicos para un soldado</Spanish>
+			<Japanese>開いて医薬品を補充する &lt;br/&gt;- 一般兵士用の医療品を含む</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_DESCRIPTIONUSE">
 			<Original>Refill medical items</Original>
@@ -80,6 +89,7 @@
             <Chinese>補給醫療物品</Chinese>
 			<Chinesesimp>补给医疗物品</Chinesesimp>
             <Spanish>Reponer insumos médicos</Spanish>
+			<Japanese>医薬品を補充する</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_REFILLED">
 			<Original>Medical items have been refilled.</Original>
@@ -88,6 +98,7 @@
             <Chinese>醫療物品已補給完成。</Chinese>
 			<Chinesesimp>医疗物品已补给完成。</Chinesesimp>
             <Spanish>Insumos médicos repuestos</Spanish>
+			<Japanese>医薬品を補充しました</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_REFILLED_NEW">
 			<Original>Medical items have been refilled. Refill item has not been consumed.</Original>
@@ -96,6 +107,7 @@
             <Chinese>醫療物品已補給完成。補給包並沒有被消耗。</Chinese>
 			<Chinesesimp>医疗物品已补给完成。补给包并没有被消耗。</Chinesesimp>
             <Spanish>Insumos médicos respuestos. El kit no ha sido consumido</Spanish>
+			<Japanese>医薬品が補充されました。補給品を使用しませんでした。</Japanese>
         </Key>
         <Key ID="STR_ADV_REFILL_REFILLED_NOT">
 			<Original>Medical items have not been refilled. Refill item has not been consumed.</Original>
@@ -104,6 +116,7 @@
             <Chinese>醫療物品並沒有補給完成。補給包並沒有被消耗。</Chinese>
 			<Chinesesimp>医疗物品并没有补给完成。补给包并没有被消耗。</Chinesesimp>
             <Spanish>Insumos médicos no se han repuesto. El kit no ha sido consumido</Spanish>
+			<Japanese>医薬品が補充されていません。補給品を使用しませんでした。</Japanese>
         </Key>
 		</Package>
 </Project>
