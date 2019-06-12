@@ -14,8 +14,10 @@ private _inCardiac = _target getVariable ["ace_medical_inCardiacArrest",false];
 private _inRevive = _target getVariable ["ace_medical_inReviveState",false];
 
 //pain will be added to all units standing too close to caller or target.
-private _bystanders = ( allUnits select {_x distance _target < 1.7} ) - [_caller];
-{ [_x, 0.2] remoteExec ["ace_medical_fnc_adjustPainLevel",_x]; nil; } count _bystanders;
+if (vehicle _target isEqualTo _target) then {
+	private _bystanders = ( allUnits select {_x distance _target < 1.7 && vehicle _x isEqualTo _x} ) - [_caller];
+	{ [_x, 0.2] remoteExec ["ace_medical_fnc_adjustPainLevel",_x]; nil; } count _bystanders;
+}
 
 //get and reduce used variable:
 /*
