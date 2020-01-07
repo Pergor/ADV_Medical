@@ -6,11 +6,5 @@ This addon - as a whole - is allowed to be copied, distributed or modified as pe
 
 Additional terms apply for the usage of this addon:
 You may not use this addon or parts or derivatives of it for any commercial purposes, including monetized game servers.
-This addon or parts or derivatives of it may not be used in any derivative of Life gamemode.
-
-Limited, non-transferable, non-exclusive permission of noncommercial use until further notice has been granted by the author to the following groups or providers:
-
-https://projekt-kultur.eu/
-https://takistani-rpg.de/
 
 Different licences may apply to parts of this addon if it's not copied or distributed as a whole.
