@@ -14,8 +14,8 @@
 			"ace_medical"
 			,"cba_settings"
 		};
-		version = "1.5.7";
-		versionStr = "1.5.7";
+		version = "1.5.8";
+		versionStr = "1.5.8";
 		author = "[SeL] Belbo // Adrian";
 		authorUrl = "http://spezialeinheit-luchs.de/";
     };
