@@ -1,3 +1,8 @@
+Preliminary Note:
+I've stopped working on my mod since 1.1.2020, or rather since ace³'s 3.13.0 update (given that I would have to rework my mod completely with the medical rewrite).
+So from now on this mod will be delivered as is - with every compatibility problem it creates. The licence has been updated, all the data is available on https://github.com/Pergor/ADV_Medical/tree/master/adv_aceCPR
+If anyone is interested in reworking my mod, working from it as a base or do anything with it, you're free to do so. The updated licence still applies though.
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	ADV - ACE CPR:
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
