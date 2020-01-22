@@ -15,6 +15,8 @@
  *
  * Public: No
  */
+ 
+ // TODO: [player, cursorObject, "Head"] call ace_medical_treatment_fnc_checkPulse bzw [QGVAR(checkPulseLocal), [_medic, _patient, _bodyPart], _patient] call CBA_fnc_targetEvent;
 
 params ["_caller", "_unit", "_selectionName"];
 

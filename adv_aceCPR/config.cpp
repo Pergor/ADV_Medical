@@ -9,10 +9,10 @@
         weapons[] = {
 			"adv_aceCPR_AED"
 		};
-        requiredVersion = 1.88;
+        requiredVersion = 1.96;
         requiredAddons[] = {
-			"ace_medical"
-			,"cba_settings"
+			"ace_medical",
+            "cba_settings"
 		};
 		version = "1.5.8";
 		versionStr = "1.5.8";
@@ -76,7 +76,7 @@ class CfgFunctions {
 		{
 			class actionCheckPulseLocal
 			{
-				file = "adv_aceCPR\functions\fn_actionCheckPulseLocal.sqf";
+				file = "adv_aceCPR\functions\fn_actionCheckPulseLocal.sqf"; // TODO: [player, cursorObject, "Head"] call ace_medical_treatment_fnc_checkPulse bzw [QGVAR(checkPulseLocal), [_medic, _patient, _bodyPart], _patient] call CBA_fnc_targetEvent;
 			};
 		};
 	};	
@@ -161,14 +161,14 @@ class cfgVehicles {
 				class CPR;
 				class adv_aceCPR_AED: CPR {
 					displayName = "$STR_ADV_ACECPR_AED_ACTION";
-					condition = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
-					statement = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_treatment";
+					condition = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_treatment_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
+					statement = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_treatment_fnc_treatment";
 					exceptions[] = {""};
 					icon = "\adv_aceCPR\ui\defib_action.paa";
 				};
 				class adv_aceCPR_AED_station: adv_aceCPR_AED {
-					condition = "[_player, _target, 'body', 'Defibrillator_station'] call ace_medical_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
-					statement = "[_player, _target, 'body', 'Defibrillator_station'] call ace_medical_fnc_treatment";
+					condition = "[_player, _target, 'body', 'Defibrillator_station'] call ace_medical_treatment_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
+					statement = "[_player, _target, 'body', 'Defibrillator_station'] call ace_medical_treatment_fnc_treatment";
 				};
 			};
 			class ACE_MainActions {
@@ -177,14 +177,14 @@ class cfgVehicles {
 						class CPR;
 						class adv_aceCPR_AED: CPR {
 							displayName = "$STR_ADV_ACECPR_AED_ACTION";
-							condition = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
-							statement = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_fnc_treatment";
+							condition = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_treatment_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
+							statement = "[_player, _target, 'body', 'Defibrillator'] call ace_medical_treatment_fnc_treatment";
 							exceptions[] = {"isNotInside"};
 							icon = "\adv_aceCPR\ui\defib_action.paa";
 						};
 						class adv_aceCPR_AED_station: adv_aceCPR_AED {
-							condition = "[_player, _target, 'body', 'Defibrillator_station'] call ace_medical_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
-							statement = "[_player, _target, 'body', 'Defibrillator_station'] call ace_medical_fnc_treatment";
+							condition = "[_player, _target, 'body', 'Defibrillator_station'] call ace_medical_treatment_fnc_canTreatCached && (missionNamespace getVariable ['adv_aceCPR_enable',true])";
+							statement = "[_player, _target, 'body', 'Defibrillator_station'] call ace_medical_treatment_fnc_treatment";
 						};
 					};
 				};

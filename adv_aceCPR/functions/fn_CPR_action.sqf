@@ -1,13 +1,15 @@
 /*
-ADV-aceCPR - by Belbo
+    ADV-aceCPR - by Belbo
 */
 
+// TODO: ersetzen in ACE_Medical_Treatment_Actions.hpp -> class CPR: BasicBandage {
+
 params [
-	"_caller"
-	,"_target"
-	,"_selectionName"
-	,"_className"
-	,"_items"
+	"_caller",
+    "_target",
+    "_selectionName",
+    "_className",
+    "_items"
 ];
 
 private _revive = missionNamespace getVariable ["ace_medical_enableRevive",0];
@@ -33,7 +35,7 @@ if ( _enable ) exitWith {
 [_target,"only regular CPR is being executed"] call adv_aceCPR_fnc_diag;
 
 //execute the regular ace-cpr action:
-[_caller,_target,_selectionName,_className,_items] call ace_medical_fnc_treatmentAdvanced_CPR;
+[_caller,_target,_selectionName,_className,_items] call ace_medical_treatment_fnc_treatmentAdvanced_CPR;
 
 //return:
 false;
